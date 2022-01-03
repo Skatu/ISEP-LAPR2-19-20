@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="adminPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.AdminMenuUI">
+    <children>
+        <AnchorPane prefHeight="623.0" prefWidth="987.0">
+            <children>
+                <Pane prefHeight="623.0" prefWidth="987.0" style="-fx-background-color: #1D2026;" />
+                <Pane layoutX="987.0" layoutY="-1.0" prefHeight="623.0" prefWidth="0.0" />
+                <GridPane layoutX="14.0" layoutY="8.0" prefHeight="604.0" prefWidth="959.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="173.0" text="Admin Menu" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1">
+                            <font>
+                                <Font name="Segoe UI" size="18.0" />
+                            </font>
+                        </Label>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnRegisterOrganization" prefHeight="17.0" prefWidth="229.0" text="Register Organization" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="56.0" layoutY="76.0" mnemonicParsing="false" onAction="#btnCheckPerformanceStatisticsOnAction" prefHeight="17.0" prefWidth="229.0" text="Check Performance Statistics" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnSendManualEmailsOnAction" prefHeight="26.0" prefWidth="230.0" text="Send Manual Emails" />
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnLogoutAction" prefHeight="17.0" prefWidth="229.0" text="Logout" />
+                     </children>
+                  </VBox>
+                    </children>
+                </GridPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,79 @@
+@startuml
+autonumber
+
+actor "Administrator" as ADM
+participant ":Register\nOrganizationUI" as UI
+participant ":RegisterOrganization\nController" as CTRL
+participant "ro:Registry\nOrganizations" as ORGS
+participant ":Platform" as CMP
+participant ":Organization" as _ORG
+participant "org:Organization" as ORG
+participant "manager\n:Manager" as MNG
+participant "collaborator\n:Collaborator" as COLLAB
+
+activate ADM
+
+ADM -> UI : begins the registry of a new organization
+activate UI
+
+UI --> ADM : requests organization name and NIF,\nmanager name and email,\ncollaborator name and email
+deactivate UI
+
+ADM -> UI : inserts information
+activate UI
+
+UI -> CTRL : newOrganization(orgName, orgNIF,\nmanagerName, managerEmail,\ncollabName, collabEmail)
+activate CTRL
+
+CTRL -> CMP: ro = getRegisterOrganizations()
+activate CMP
+deactivate CMP
+
+CTRL -> ORGS: org = newOrganization(orgName, orgNIF,\nmanagerName, managerEmail,\ncollabName, collabEmail)
+activate ORGS
+
+ORGS -> _ORG: manager=newManager(managerName, managerEmail)
+activate _ORG
+_ORG --> MNG ** : create(managerName, managerEmail)
+deactivate _ORG
+
+ORGS -> _ORG: collaborator=newCollaborator(collabName, collabNameEmail)
+activate _ORG
+_ORG --> COLLAB ** : create(collabName, collabNameEmail)
+deactivate _ORG
+
+ORGS --> ORG ** : create(name,manager,collaborator)
+deactivate ORGS
+
+CTRL -> ORGS : validateOrganization(org)
+activate ORGS
+deactivate ORGS
+
+deactivate CTRL
+UI --> ADM : presents the data and requests confirmation
+deactivate UI
+
+ADM -> UI : confirms
+activate UI
+
+UI -> CTRL: registerOrganization()
+activate CTRL
+CTRL -> ORGS: registerOrganization(org)
+activate ORGS
+
+ORGS -> ORGS: validateOrganization(org)
+
+
+ref over ORGS, COLLAB, CMP
+  UC4_SD_RegisterManagerAndCollaboratorAsUsers
+end ref
+
+ORGS -> ORGS: addOrganization(org)
+
+deactivate ORGS
+deactivate CTRL
+UI --> ADM : operation successful
+deactivate UI
+
+deactivate ADM
+@enduml

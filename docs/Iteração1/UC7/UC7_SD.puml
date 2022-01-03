@@ -1,0 +1,100 @@
+@startuml
+autonumber
+
+actor "Collaborator/Manager" as CLMN
+participant ":ShowOrganizationStatsUI" as UI
+participant ":ShowOrganizationStatsController" as CTL
+participant ":Platform" as PLT
+participant ":registryOrganization" as RO
+participant ":Organization" as O
+
+activate CLMN
+CLMN -> UI : initiates overview of statistics about task execution and freelancer payments
+activate UI
+
+UI -> CTL : getOrganizations()
+activate CTL
+CTL -> PLT : getRegisterOrganizations()
+activate PLT
+deactivate PLT
+CTL -> RO : getLstOrganizations()
+activate RO
+deactivate RO
+deactivate CTL
+
+UI -> CTL : determinePaymentOrganization()
+activate CTL
+
+CTL -> O : determinePaymentOrganization(mapOrganizationPayment)
+activate O
+ref over O
+SD_determinePaymentOrganization()
+end ref
+CTL <-- O : mapOrganizationPayment
+deactivate O
+
+CTL -> O : determinePaymentOrganization()
+activate O
+CTL <-- O : mapTotalPayments
+deactivate O
+deactivate O
+
+UI -> CTL : calculateMeanPayment()
+
+CTL -> O : calculateMeanPayment(paymentTreeMap)
+activate O
+deactivate O
+deactivate CTL
+
+UI -> CTL : calculateDeviationPayment()
+
+CTL -> O : calculateDeviationPayment(paymentTreeMap, meanPaymentsMap)
+activate O
+deactivate O
+deactivate CTL
+
+
+UI -> CTL : determineDelayOrganization()
+activate CTL
+CTL -> O : determineDelayOrganization(mapOrganizationDelay)
+activate O
+ref over O
+SD_determineDelayOrganization()
+end ref
+CTL <-- O : mapOrganizationDelay
+deactivate O
+
+CTL -> O : determineDelayOrganization()
+activate O
+
+CTL <-- O : delayTreeMap
+deactivate O
+deactivate CTL
+
+UI -> CTL : calculcateMeanDelay()
+activate CTL
+CTL -> O : calculateMeanDelay(paymentTreeMap)
+activate O
+deactivate O
+deactivate CTL
+
+UI -> CTL : calculateDeviationDelay()
+activate CTL
+CTL -> O : calculateDeviationDelay(mapTotalDelays, meanPaymentsMap)
+activate O
+deactivate O
+
+
+CTL -> O: determineNumberOfTasks()
+activate O
+deactivate O
+deactivate CTL
+
+UI --> CLMN : calculates and displays performance statistics for all organization freelancers \n(i.e. the average and standard deviation of \ndelay and payment, along with histograms for each and all organization freelancers).
+deactivate UI
+CLMN -> UI : confirms
+activate UI
+UI --> CLMN : successful operation
+deactivate UI
+deactivate CLMN
+@enduml

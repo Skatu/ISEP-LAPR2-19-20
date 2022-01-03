@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1174px" preserveAspectRatio="none" style="width:1942px;height:1174px;" version="1.1" viewBox="0 0 1942 1174" width="1942px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f14w5jw5snsv5g" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="1016.7344" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="142" y="89.5703" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="345" y="119.9219" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="345" y="729.8438" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="475" y="180.2734" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="624" y="265.9766" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="381.1641" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="747" y="326.3281" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="356.6797" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="269.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="438.3828" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="863.8984" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="949.6016" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1085" y="515.4375" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1207" y="575.7891" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="292.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1405" y="790.1953" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1847" y="1009.9531" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="873.0313" style="stroke: #000000; stroke-width: 2.0;" width="1871.5" x="60" y="225.2734" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="225.7578" style="stroke: #000000; stroke-width: 2.0;" width="415" x="853.5" y="474.7344" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="139.0547" style="stroke: #000000; stroke-width: 2.0;" width="1068" x="853.5" y="908.8984" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="147" x2="147" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="350" x2="350" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="480" x2="480" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="629" x2="629" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="752" x2="752" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="893.5" x2="893.5" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1089.5" x2="1089.5" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1211.5" x2="1211.5" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1311.5" x2="1311.5" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1409.5" x2="1409.5" y1="57.2188" y2="1115.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1851.5" x2="1851.5" y1="57.2188" y2="1115.3047" />
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="70" y="20.6094" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="77" y="42.1426">task:PaymentProcess</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="70" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="136" x="77" y="1135.8379">task:PaymentProcess</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="305" y="20.6094" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="312" y="42.1426">:Plataforma</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="305" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="72" x="312" y="1135.8379">:Plataforma</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="405" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="469.5" y="24.5332">ro:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="412" y="42.1426">RegistryOrganization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="146" x="405" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="469.5" y="1135.8379">ro:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="412" y="1153.4473">RegistryOrganization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="565" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="606" y="24.5332">lstOrg:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="572" y="42.1426">List&lt;Organization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="124" x="565" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="606" y="1135.8379">lstOrg:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="572" y="1153.4473">List&lt;Organization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="94" x="703" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="737.5" y="24.5332">org:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="710" y="42.1426">Organization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="94" x="703" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="25" x="737.5" y="1135.8379">org:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="710" y="1153.4473">Organization</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="863.5" y="20.6094" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="870.5" y="42.1426">bill: Bill</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="31.6094" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="863.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="870.5" y="1135.8379">bill: Bill</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="1024.5" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="1064" y="24.5332">lstTran:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="1031.5" y="42.1426">List&lt;Transaction&gt;</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="127" x="1024.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="1064" y="1135.8379">lstTran:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="1031.5" y="1153.4473">List&lt;Transaction&gt;</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="1165.5" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="1192" y="24.5332">trans:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1172.5" y="42.1426">Transaction</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="1165.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="1192" y="1135.8379">trans:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="1172.5" y="1153.4473">Transaction</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="83" x="1268.5" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="1295.5" y="24.5332">free:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="1275.5" y="42.1426">Freelancer</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="83" x="1268.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="1295.5" y="1135.8379">free:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="1275.5" y="1153.4473">Freelancer</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="1365.5" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="1399.5" y="24.5332">rb:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="1372.5" y="42.1426">RegisterBill</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="85" x="1365.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="17" x="1399.5" y="1135.8379">rb:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="1372.5" y="1153.4473">RegisterBill</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="1792.5" y="3" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="1800.5" y="24.5332">emailController:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="1799.5" y="42.1426">EmailToTextFile</text>
+        <rect fill="#FEFECE" filter="url(#f14w5jw5snsv5g)" height="49.2188" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="1792.5" y="1114.3047" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="1800.5" y="1135.8379">emailController:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="1799.5" y="1153.4473">EmailToTextFile</text>
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="1016.7344" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="142" y="89.5703" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="345" y="119.9219" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="345" y="729.8438" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="475" y="180.2734" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="624" y="265.9766" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="381.1641" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="747" y="326.3281" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="356.6797" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="269.1094" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="438.3828" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="863.8984" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="889" y="949.6016" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1085" y="515.4375" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1207" y="575.7891" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="292.7578" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1405" y="790.1953" />
+        <rect fill="#FFFFFF" filter="url(#f14w5jw5snsv5g)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1847" y="1009.9531" />
+        <ellipse cx="10.5" cy="88.8203" fill="none" rx="4" ry="4" style="stroke: #A80036; stroke-width: 1.5;" />
+        <polygon fill="#A80036" points="130,85.5703,140,89.5703,130,93.5703,134,89.5703" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="15" x2="136" y1="89.5703" y2="89.5703" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="18" y="84.7139">PaymentProcess()]</text>
+        <polygon fill="#A80036" points="333,115.9219,343,119.9219,333,123.9219,337,119.9219" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="339" y1="119.9219" y2="119.9219" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="174" x="159" y="115.0654">ro = getRegistryOrganization()</text>
+        <polygon fill="#A80036" points="463,176.2734,473,180.2734,463,184.2734,467,180.2734" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="469" y1="180.2734" y2="180.2734" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="194" x="159" y="175.417">lstOrg = getOrganizationsToPay()</text>
+        <path d="M60,225.2734 L133,225.2734 L133,233.2734 L123,243.2734 L60,243.2734 L60,225.2734 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;" />
+        <rect fill="none" height="873.0313" style="stroke: #000000; stroke-width: 2.0;" width="1871.5" x="60" y="225.2734" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="75" y="239.7686">loop</text><a target="_top" xlink:actuate="onRequest" xlink:href="for" xlink:show="new" xlink:title="for" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="101" x="148" y="238.6924">each Organization:</text>
+            <line style="stroke: #0000FF; stroke-width: 1.0;" x1="148" x2="249" y1="240.6924" y2="240.6924" /></a>
+        <polygon fill="#A80036" points="612,261.9766,622,265.9766,612,269.9766,616,265.9766" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="618" y1="265.9766" y2="265.9766" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="159" y="261.1201">org = get(i)</text>
+        <polygon fill="#A80036" points="735,322.3281,745,326.3281,735,330.3281,739,326.3281" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="741" y1="326.3281" y2="326.3281" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="209" x="159" y="321.4717">lstTran = getPendingTransationList()</text>
+        <polygon fill="#A80036" points="877,352.6797,887,356.6797,877,360.6797,881,356.6797" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="757" x2="883" y1="356.6797" y2="356.6797" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="113" x="764" y="351.8232">bill = Bill(OrgName)</text>
+        <polygon fill="#A80036" points="877,434.3828,887,438.3828,877,442.3828,881,438.3828" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="757" x2="883" y1="438.3828" y2="438.3828" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="764" y="433.5264">create(lstTran)</text>
+        <path d="M904,399.6797 L904,458.6797 L1266,458.6797 L1266,409.6797 L1256,399.6797 L904,399.6797 " fill="#FBFB77" filter="url(#f14w5jw5snsv5g)" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M1256,399.6797 L1256,409.6797 L1266,409.6797 L1256,399.6797 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="341" x="910" y="418.1748">"Bill" (short for "Billing") instance refers to the receipt of the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="264" x="910" y="434.5264">transactions that the organization made since</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="910" y="450.8779">the last payment process was made.</text>
+        <path d="M853.5,474.7344 L926.5,474.7344 L926.5,482.7344 L916.5,492.7344 L853.5,492.7344 L853.5,474.7344 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;" />
+        <rect fill="none" height="225.7578" style="stroke: #000000; stroke-width: 2.0;" width="415" x="853.5" y="474.7344" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="868.5" y="489.2295">loop</text><a target="_top" xlink:actuate="onRequest" xlink:href="for" xlink:show="new" xlink:title="for" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="97" x="941.5" y="488.1533">each Transaction:</text>
+            <line style="stroke: #0000FF; stroke-width: 1.0;" x1="941.5" x2="1038.5" y1="490.1533" y2="490.1533" /></a>
+        <polygon fill="#A80036" points="1073,511.4375,1083,515.4375,1073,519.4375,1077,515.4375" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="899" x2="1079" y1="515.4375" y2="515.4375" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="906" y="510.5811">trans : get(i)</text>
+        <polygon fill="#A80036" points="1195,571.7891,1205,575.7891,1195,579.7891,1199,575.7891" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="899" x2="1201" y1="575.7891" y2="575.7891" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="906" y="570.9326">free = getFreelancer()</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="899" x2="941" y1="636.1406" y2="636.1406" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="941" x2="941" y1="636.1406" y2="649.1406" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="900" x2="941" y1="649.1406" y2="649.1406" />
+        <polygon fill="#A80036" points="910,645.1406,900,649.1406,910,653.1406,906,649.1406" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="906" y="631.2842">validateTransaction(trans,free)</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="899" x2="941" y1="679.4922" y2="679.4922" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="941" x2="941" y1="679.4922" y2="692.4922" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="900" x2="941" y1="692.4922" y2="692.4922" />
+        <polygon fill="#A80036" points="910,688.4922,900,692.4922,910,696.4922,906,692.4922" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="143" x="906" y="674.6357">addTransaction(tran,free)</text>
+        <polygon fill="#A80036" points="333,725.8438,343,729.8438,333,733.8438,337,729.8438" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="339" y1="729.8438" y2="729.8438" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="119" x="159" y="724.9873">rb = getRegisterBill()</text>
+        <polygon fill="#A80036" points="1393,786.1953,1403,790.1953,1393,794.1953,1397,790.1953" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="152" x2="1399" y1="790.1953" y2="790.1953" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="159" y="785.3389">addBill(bill)</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1415" x2="1457" y1="820.5469" y2="820.5469" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1457" x2="1457" y1="820.5469" y2="833.5469" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1416" x2="1457" y1="833.5469" y2="833.5469" />
+        <polygon fill="#A80036" points="1426,829.5469,1416,833.5469,1426,837.5469,1422,833.5469" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="1422" y="815.6904">validateBill(bill)</text>
+        <polygon fill="#A80036" points="910,859.8984,900,863.8984,910,867.8984,906,863.8984" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="904" x2="1404" y1="863.8984" y2="863.8984" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="916" y="859.042">createFile()</text>
+        <path d="M853.5,908.8984 L926.5,908.8984 L926.5,916.8984 L916.5,926.8984 L853.5,926.8984 L853.5,908.8984 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;" />
+        <rect fill="none" height="139.0547" style="stroke: #000000; stroke-width: 2.0;" width="1068" x="853.5" y="908.8984" /><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="868.5" y="923.3936">loop</text><a target="_top" xlink:actuate="onRequest" xlink:href="for" xlink:show="new" xlink:title="for" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="91" x="941.5" y="922.3174">each Freelancer:</text>
+            <line style="stroke: #0000FF; stroke-width: 1.0;" x1="941.5" x2="1032.5" y1="924.3174" y2="924.3174" /></a>
+        <polygon fill="#A80036" points="910,945.6016,900,949.6016,910,953.6016,906,949.6016" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="904" x2="1404" y1="949.6016" y2="949.6016" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="236" x="916" y="944.7451">createFreelancerTransaction(free,lstTran)</text>
+        <polygon fill="#A80036" points="1835,1005.9531,1845,1009.9531,1835,1013.9531,1839,1009.9531" style="stroke: #A80036; stroke-width: 1.0;" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1415" x2="1841" y1="1009.9531" y2="1009.9531" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="413" x="1422" y="1005.0967">sendFreelancerPaymentWarning(free.getFreelancerEmail(), lstTran, bill)</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1415" x2="1457" y1="1082.3047" y2="1082.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1457" x2="1457" y1="1082.3047" y2="1095.3047" />
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1410" x2="1457" y1="1095.3047" y2="1095.3047" />
+        <polygon fill="#A80036" points="1420,1091.3047,1410,1095.3047,1420,1099.3047,1416,1095.3047" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="98" x="1422" y="1077.4482">addBillToList(bill)</text>
+        <!--
+@startuml
+
+participant "task:PaymentProcess" as task
+participant ":Plataforma" as PLAT
+participant "ro:\nRegistryOrganization" as RO
+participant "lstOrg:\nList<Organization" as LO
+participant "org:\nOrganization" as ORG
+participant "bill: Bill" as BILL
+participant "lstTran:\nList<Transaction>" as LT
+participant "trans:\nTransaction" as TRANS
+participant "free:\nFreelancer" as FREE
+participant "rb:\nRegisterBill" as rb
+participant "emailController:\nEmailToTextFile" as EMAIL
+
+[o->task : PaymentProcess()]
+
+activate task
+task -> PLAT : ro = getRegistryOrganization()
+activate PLAT
+deactivate PLAT
+task -> RO : lstOrg = getOrganizationsToPay()
+activate RO
+deactivate RO
+loop [for each Organization: ]
+task -> LO : org = get(i)
+activate LO
+deactivate LO
+task -> ORG : lstTran = getPendingTransationList()
+activate ORG
+ORG -> BILL : bill = Bill(OrgName)
+activate BILL
+deactivate BILL
+ORG -> BILL : create(lstTran)
+note right
+"Bill" (short for "Billing") instance refers to the receipt of the
+transactions that the organization made since
+the last payment process was made.
+end note
+activate BILL
+loop [for each Transaction: ]
+BILL -> LT : trans : get(i)
+activate LT
+deactivate LT
+BILL -> TRANS : free = getFreelancer()
+activate TRANS
+deactivate TRANS
+BILL -> BILL : validateTransaction(trans,free)
+BILL -> BILL : addTransaction(tran,free)
+end loop
+deactivate BILL
+deactivate ORG
+task -> PLAT : rb = getRegisterBill()
+activate PLAT
+deactivate PLAT
+task -> rb : addBill(bill)
+activate rb
+rb -> rb : validateBill(bill)
+rb -> BILL : createFile()
+activate BILL
+deactivate BILL
+loop [for each Freelancer: ]
+rb -> BILL : createFreelancerTransaction(free,lstTran)
+activate BILL
+deactivate BILL
+rb -> EMAIL : sendFreelancerPaymentWarning(free.getFreelancerEmail(), lstTran, bill)
+activate EMAIL
+deactivate EMAIL
+end loop
+rb -> rb : addBillToList(bill)
+deactivate rb
+end loop
+
+@enduml
+
+PlantUML version 1.2018.14(Fri Dec 21 16:33:16 GMT 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+-->
+    </g>
+</svg>

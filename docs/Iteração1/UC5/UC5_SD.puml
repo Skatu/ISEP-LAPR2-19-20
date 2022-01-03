@@ -1,0 +1,73 @@
+@startuml
+
+participant "task:PaymentProcess" as task
+participant ":Plataforma" as PLAT
+participant "ro:\nRegistryOrganization" as RO
+participant "lstOrg:\nList<Organization" as LO
+participant "org:\nOrganization" as ORG
+participant "bill: Bill" as BILL
+participant "lstTran:\nList<Transaction>" as LT
+participant "trans:\nTransaction" as TRANS
+participant "free:\nFreelancer" as FREE
+participant "rb:\nRegisterBill" as rb
+participant "emailController:\nEmailToTextFile" as EMAIL
+
+[o->task : PaymentProcess()]
+
+activate task
+task -> PLAT : ro = getRegistryOrganization()
+activate PLAT
+deactivate PLAT
+task -> RO : lstOrg = getOrganizationsToPay()
+activate RO
+deactivate RO
+loop [for each Organization: ]
+task -> LO : org = get(i)
+activate LO
+deactivate LO
+task -> ORG : lstTran = getPendingTransationList()
+activate ORG
+ORG -> BILL : bill = Bill(OrgName)
+activate BILL
+deactivate BILL
+ORG -> BILL : create(lstTran)
+note right
+"Bill" (short for "Billing") instance refers to the receipt of the
+transactions that the organization made since
+the last payment process was made.
+end note
+activate BILL
+loop [for each Transaction: ]
+BILL -> LT : trans : get(i)
+activate LT
+deactivate LT
+BILL -> TRANS : free = getFreelancer()
+activate TRANS
+deactivate TRANS
+BILL -> BILL : validateTransaction(trans,free)
+BILL -> BILL : addTransaction(tran,free)
+end loop
+deactivate BILL
+deactivate ORG
+task -> PLAT : rb = getRegisterBill()
+activate PLAT
+deactivate PLAT
+task -> rb : addBill(bill)
+activate rb
+rb -> rb : validateBill(bill)
+rb -> BILL : createFile()
+activate BILL
+deactivate BILL
+loop [for each Freelancer: ]
+rb -> BILL : createFreelancerTransaction(free,lstTran)
+activate BILL
+deactivate BILL
+rb -> EMAIL : sendFreelancerPaymentWarning(free.getFreelancerEmail(), lstTran, bill)
+activate EMAIL
+deactivate EMAIL
+end loop
+rb -> rb : addBillToList(bill)
+deactivate rb
+end loop
+
+@enduml

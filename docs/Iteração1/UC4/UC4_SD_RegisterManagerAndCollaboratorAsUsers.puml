@@ -1,0 +1,67 @@
+@startuml
+title UC4_SD_RegisterManagerAndCollaboratorAsUsers
+autonumber
+
+participant "ro:Registry\nOrganizations" as ORGS
+participant "manager\n:Collaborator" as MNG
+participant "collaborator\n:Collaborator" as COLLAB
+participant ":Platform" as CMP
+participant "alg:PasswordGeneratorAlgorithm" as ALG
+participant "aut:Authorization\nFacade" as AUT
+participant "eService\n:ExternalEmailService" as ESA
+
+ORGS -> ORGS: registerManagerAndCollaboratorAsUsers(manager, collaborator)
+activate ORGS
+
+ORGS -> MNG: managerName = getName()
+activate MNG
+deactivate MNG
+ORGS -> MNG: managerEmail = getEmail()
+activate MNG
+deactivate MNG
+
+ORGS -> COLLAB: collabName = getName()
+activate COLLAB
+deactivate COLLAB
+ORGS -> COLLAB: collabEmail = getEmail()
+activate COLLAB
+deactivate COLLAB
+
+ORGS -> CMP : alg=getPwdGeneratorAlgorithm()
+activate CMP
+deactivate CMP
+
+ORGS -> ALG: managerPwd = generatePassword(managerName, managerEmail)
+activate ALG
+deactivate ALG
+
+ORGS -> ALG: collaboratorPwd = generatePassword(managerName, managerEmail)
+activate ALG
+deactivate ALG
+
+ORGS -> CMP : aut = getAuthorizationFacade()
+activate CMP
+deactivate CMP
+
+ORGS -> AUT: registerUserWithFunction(managerName, managerEmail, pwd, "MANAGER")
+activate AUT
+deactivate AUT
+
+ORGS -> AUT: registerUserWithFunction(collabName, collabEmail, pwd, "COLLABORATOR")
+activate AUT
+deactivate AUT
+
+ORGS -> CMP : eService= getEmailService()
+activate CMP
+deactivate CMP
+
+ORGS -> ESA : sendPassword(managerEmail, managerPwd)
+activate ESA
+deactivate ESA
+
+ORGS -> ESA: sendPassword(collabEmail, collaboratorPwd)
+activate ESA
+deactivate ESA
+
+deactivate ORGS
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+participant ":RegistryOrganization" as RO
+participant ":Organization" as O
+
+
+title SD_determineDelayPlatform()
+
+[o-> RO: determineDelayPlatform()
+activate RO
+RO -> RO : mapTotalDelays == null
+loop [ For each organization ]
+RO -> O: determineDelayOrganization(mapTotalDelays)
+activate O
+deactivate O
+end loop
+[<-- RO : mapOrganizationDelay
+deactivate RO
+
+@enduml

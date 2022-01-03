@@ -1,0 +1,80 @@
+@startuml
+
+class Collaborator {
+  -String name
+  -String email
+  +Manager(name, email)
+  +String getEmail()
+}
+
+class Manager {
+  -String name
+  -String email
+  +Collaborator(name, email)
+  +String getEmail()
+}
+
+class Organization {
+  -String name
+  +{static} newManager(name, email)
+  +{static} newCollaborator(name, email)
+  +Organization(name, manager, collaborator)
+}
+
+class Platform {
+  -String name
+  +getRegistryOrganizations()
+  +getPasswordGeneratorAlgorithm()
+  +getAuthorizationFacade()
+  +getEmailService()
+}
+
+class AuthorizationFacade {
+   +registerUserWithFunctions(name, email, pwd, function)
+}
+
+class RegisterOrganizationController {
+    +newOrganization(orgName,managerName,managerEmail,collabName,collabEmail)
+    +registerOrganization()
+}
+
+class RegisterOrganizationUI {
+}
+
+class RegistryOrganizations {
+    +Organization newOrganization(orgName,managerName,managerEmail,collabName,collabEmail)
+    +validateOrganization(Organization org)
+    +registerOrganization(Organization org)
+    -addOrganization(Organization org)
+}
+
+class PasswordGeneratorAlgorithm {
+    +generatePassword(name, email)
+}
+
+interface "<<interface>>\nExternalEmailService" {
+    +sendPassword(email, pwd)
+}
+
+RegisterOrganizationUI ..> RegisterOrganizationController
+RegisterOrganizationController ..> Platform
+RegisterOrganizationController ..> Organization
+RegisterOrganizationController ..> RegistryOrganizations
+
+Platform ..> Collaborator
+Platform ..> AuthorizationFacade
+Platform "1" --> "1" PasswordGeneratorAlgorithm: resorts to
+Platform "1" --> "1" RegistryOrganizations: has
+Platform "1" --> "1" "<<interface>>\nExternalEmailService" : resorts to
+
+RegistryOrganizations "1" --> "*" Organization : has registered
+RegistryOrganizations ..> PasswordGeneratorAlgorithm
+RegistryOrganizations ..> "<<interface>>\nExternalEmailService"
+RegistryOrganizations ..> AuthorizationFacade
+RegistryOrganizations ..> Manager
+RegistryOrganizations ..> Collaborator
+
+Organization "1" --> "1" "Collaborator": has
+Organization "1" --> "1" Manager: has 
+
+@enduml

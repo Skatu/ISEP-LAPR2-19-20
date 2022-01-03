@@ -1,0 +1,64 @@
+@startuml
+hide methods
+left to right direction
+
+class Execution {
+    - Date finishDate
+    - int delayHours
+    - String briefDescription
+}
+
+class Payment {}
+
+class Freelancer {
+    - String freelancerID
+    - String name
+    - String expertise
+    - String email
+    - String nif
+    - String iban
+    - String address
+    - String country
+}
+
+class Task {
+    - String taskID
+    - String taskDescription
+    - int taskDurationInHours
+    - double taskCostPerHour
+    - String taskCategory
+}
+
+class Administrator {
+    - String email
+}
+
+class Platform {
+    - String name
+}
+
+class Organization {
+    -String name
+    -String nif
+    -Date payDayDate
+}
+
+class Transaction {
+    - String id
+}
+
+Administrator "1" -- "1" Platform : works for >
+Administrator "1" -- "*" Statistics: views (of all organizations) >
+Platform "1" -- "*" Freelancer: has registered >
+Platform "1" -- "*" Organization : has registered >
+Organization "1" -- "*" Payment : has registries of >
+Payment "*" -- "1" Freelancer : has degree of expertise of >
+Payment "1" -- "1" Task : has duration of >
+Payment "1" -- "1" Task : has task cost\nper hour >
+Freelancer "1" -- "*" Task : executes >
+Transaction "1" -- "1" Task : specifies >
+Transaction "1" -- "1" Execution : has >
+Transaction "1" -- "1" Freelancer : has information about >
+Statistics "1" -- "*" Execution : has mean and standard deviation of >
+Statistics "1" -- "*" Payment : has mean and standard deviation of >
+@enduml

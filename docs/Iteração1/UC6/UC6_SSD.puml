@@ -1,0 +1,16 @@
+@startuml
+actor "Administrator" as ADM
+participant ":System" as S
+
+activate ADM
+ADM -> S: initializes the process of viewing freelancers performance statistics
+activate S
+S--> ADM: computes and shows freelancers performance statistics \n(i.e. the mean and the standard deviation of delays and \npayments along with histograms of each one and all freelancers)
+deactivate S
+
+ADM -> S: The T4J Administrator confirms.
+activate S
+S --> ADM: The System informs the administrator of the success of the operation.
+deactivate S
+deactivate ADM
+@enduml

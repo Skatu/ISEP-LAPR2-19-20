@@ -1,0 +1,19 @@
+@startuml
+participant ":RegistryOrganization" as RO
+participant ":Organization" as O
+
+
+title SD_determinePaymentPlatform()
+
+[o-> RO: determinePaymentPlatform()
+activate RO
+RO -> RO : mapTotalPayments == null
+loop [ For each organization ]
+RO -> O: determinePaymentOrganization(mapTotalPayments)
+activate O
+deactivate O
+end loop
+[<-- RO : mapTotalPayments
+deactivate RO
+
+@enduml

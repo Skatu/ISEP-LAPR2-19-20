@@ -1,0 +1,37 @@
+@startuml
+participant ":Organization" as O
+participant ":ListTransactions" as L
+participant ":Transaction" as TR
+participant ":Execution" as E
+participant ":Freelancer" as F
+participant "mapOrganizationDelay\n:TreeMap<String, List<Double>>" as M
+
+title SD_determineDelayOrganization()
+
+[o-> O: determineDelayOrganization()
+activate O
+O -> O : mapOrganizationDelay == null
+O -> L : getListTransactions()
+activate L
+deactivate L
+loop [ For each transaction ]
+O -> TR : getFreelancer()
+activate TR
+deactivate TR
+O -> F : getFreelancerID()
+activate F
+deactivate F
+O -> TR : getExecution()
+activate TR
+deactivate TR
+O -> E : getDelay()
+activate E
+deactivate E
+O -> M : mapOrganizationDelay = determineDelayOrganization()
+activate M
+deactivate M
+end loop
+[<-- O : mapOrganizationDelay
+deactivate O
+
+@enduml

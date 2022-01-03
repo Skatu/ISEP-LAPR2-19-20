@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="defineDatePane" prefHeight="226.0" prefWidth="402.0" style="-fx-background-color: #1D2026;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.DefineDateOfPaymentsUI">
+   <children>
+      <VBox alignment="CENTER" layoutX="51.0" layoutY="55.0" spacing="20.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="279.0" text="Define Date of Payment" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <HBox spacing="10.0">
+               <children>
+                  <DatePicker fx:id="datePicker" editable="false" prefHeight="25.0" prefWidth="145.0" promptText="insert date" />
+                  <TextField fx:id="txtHour" prefHeight="25.0" prefWidth="67.5" promptText="hour" />
+                  <TextField fx:id="txtMinute" prefHeight="25.0" prefWidth="67.5" promptText="minutes" />
+               </children>
+            </HBox>
+            <HBox spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#btnCancelAction" prefHeight="25.0" prefWidth="145.0" text="Cancel" />
+                  <Button mnemonicParsing="false" onAction="#btnConfirmAction" prefHeight="25.0" prefWidth="145.0" text="Confirm" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

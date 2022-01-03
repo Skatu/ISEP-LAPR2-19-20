@@ -1,0 +1,91 @@
+@startuml
+
+class RegisterPaymentTransactionUI {
+}
+
+class RegisterPaymentTransactionController {
+    +Transaction newTransaction(String transId, String taskId, String taskDescription,\nint taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate, double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount, String streetName, \nString doorNumber, String city, String country)
+    +double computeAmount(double taskCostPerHour, int taskAssignedDuration,String freelancerExpertise)
+    +boolean registerTransaction()
+}
+
+class ApplicationPOT{
+    +ApplicationPOT getInstance()
+    +UserSession getCurrentSession()
+}
+
+class UserSession{
+    +String getEmailUser()
+}
+
+class Platform{
+    -String designation
+    +RegistrYOrganizations getRegistryOrganizations()
+    +RegistryFreelancers getRegistryFreelancers()
+}
+
+class RegistryOrganizations{
+    +Organization getOrganizationByUserEmail(String email)
+}
+
+class Organization{
+    -String name
+    -String nif
+    -Date payDayDate
+    +ListTasks getListTasks()
+}
+
+class ListTasks{
+    +boolean existsTaskByID(String taskId)
+}
+
+class RegistryFreelancers{
+    +boolean existsFreelancerByID(String freelancerId)
+}
+
+class ListTransactions{
+    +Transaction newTransaction(String transId, String taskId, String taskDescription,\nint taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate, double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount, String streetName, \nString doorNumber, String city, String country)
+    +boolean validateTransaction(Transaction transaction)
+    +boolean addTransaction(Transaction transaction)
+}
+
+class Transaction{
+    - String transID
+    +Transaction create(String transId, String taskId, String taskDescription,\nint taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate, double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount, String streetName, \nString doorNumber, String city, String country)
+    +double computeAmount()
+    +Execution create(Date executionFinishDate, double delay, String executionBriefDescription)
+}
+
+class Task {
+    - String taskID
+    -String taskDescription
+    -Time taskDurationHours
+    -Double taskCostPerHour
+    -String taskCategory
+}
+
+class Freelancer{
+    - String freelancerID
+    - String name
+    - String expertise
+    - String email
+    - String nif
+    - String iban
+    - String address
+    - Strinf country
+}
+
+RegisterPaymentTransactionUI ..> RegisterPaymentTransactionController
+RegisterPaymentTransactionController ..> ApplicationPOT
+RegisterPaymentTransactionController ..> UserSession
+RegisterPaymentTransactionController ..> Platform
+Platform "1" -- "1" RegistryOrganizations : has >
+Organization "1" -- "1" ListTransactions : has >
+Platform "1" -- "1" RegistryFreelancers : has >
+ListTransactions "1" -- "*" Transaction : has >
+RegistryOrganizations "1" -- "*" Organization : has >
+Organization "1" -- "1" ListTasks : has >
+Transaction "1" -- "1" Freelancer : has information about >
+Transaction "1" -- "1" Task : specifies >
+ListTasks "1" -- "*" Task : has >
+@enduml

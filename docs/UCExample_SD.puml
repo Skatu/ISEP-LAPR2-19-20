@@ -1,0 +1,79 @@
+@startuml
+autonumber
+
+actor "Utilizador Não Registado" as UNR
+participant ":Registar\nOrganizacaoUI" as UI
+participant ":RegistarOrganizacao\nController" as CTRL
+participant ":Plataforma" as PLAT
+participant "Organizacao" as _ORG
+participant "org:Organizacao" as ORG
+participant "end:EnderecoPostal" as END
+participant "colab:Colaborador" as COLAB
+participant ":Autorizacao\nFacade" as AUT
+
+
+activate UNR
+UNR -> UI : registar organização
+activate UI
+UI --> UNR : solicita dados organização \n(nome,NIF,endereço,tlf,site,email)\n e sobre o gestor (nomeG,função,tlfG, emailG, pwd)
+deactivate UI
+
+UNR -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL : novaOrganizacao(nome,NIF,endLocal,endCodPostal,\nendLocalidade,tlf,site,email,nomeG,função,tlfG, emailG,pwd)
+activate CTRL
+
+CTRL -> PLAT: org = novaOrganizacao(nome,NIF,endLocal,endCodPostal,\nendLocalidade,tlf,site,email,nomeG,função,tlfG, emailG)
+activate PLAT
+
+PLAT -> _ORG: end=novoEndereco(endLocal,endCodPostal,endLocalidade)
+activate _ORG
+_ORG --> END ** : create(endLocal,endCodPostal,endLocalidade)
+deactivate _ORG
+
+PLAT -> _ORG: colab=novoColaborador(nomeG,função,tlfG, emailG)
+activate _ORG
+_ORG --> COLAB ** : create(nomeG,função,tlfG, emailG)
+deactivate _ORG
+
+PLAT --> ORG ** : create(nome,NIF,end,tlf,site,email,colab)
+deactivate PLAT
+
+CTRL -> PLAT : validaOrganizacao(org, pwd)
+activate PLAT
+deactivate PLAT
+
+deactivate CTRL
+UI --> UNR : apresenta dados e solicita confirmação
+deactivate UI
+
+UNR -> UI : confirma
+activate UI
+
+UI -> CTRL: registaOrganizacao()
+activate CTRL
+CTRL -> PLAT: registaOrganizacao(org, pwd)
+activate PLAT
+
+PLAT -> PLAT: validaOrganizao(org, pwd)
+PLAT -> COLAB: nomeG = getNome()
+activate COLAB
+deactivate COLAB
+PLAT -> COLAB: emailG = getEmail()
+activate COLAB
+deactivate COLAB
+PLAT -> AUT: registaUtilizadorComPapeis(nomeG,emailG,pwd,["GESTOR","COLABORADOR"])
+activate AUT
+deactivate AUT
+PLAT -> PLAT: addOrganizao(org)
+
+
+deactivate PLAT
+deactivate CTRL
+UI --> UNR : operação bem sucedida
+deactivate UI
+
+deactivate UNR
+@enduml
+@enduml

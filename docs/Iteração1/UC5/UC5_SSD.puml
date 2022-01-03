@@ -1,0 +1,9 @@
+@startuml
+
+participant "Timer" as T
+participant "System" as S
+
+T -> S : Starts payment process
+activate S
+deactivate S
+@enduml

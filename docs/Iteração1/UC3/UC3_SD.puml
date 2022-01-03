@@ -1,0 +1,100 @@
+@startuml
+autonumber
+
+actor "Collaborator" as COL
+
+participant ":RegisterPaymentTransactionUI" as UI
+participant ":RegisterPaymentTransactionController" as CTL
+participant ":ApplicationPOT" as APP
+participant "app: ApplicationPOT" as _APP
+participant "session:\nUserSession" as SES
+participant ":Platform" as CO
+participant ":RegistryOrganizations" as RO
+participant ":Organization" as O
+participant ":ListCollaborators" as LC
+participant ":ListTasks" as LST
+participant ":RegistryFreelancers" as RFR
+participant ":ListTransactions" as RT
+participant ":Transaction" as TR
+
+
+activate COL
+activate UI
+COL -> UI : initiates the creation of the payment transaction
+UI --> COL : requests the introduction of a brief description of the task \n(id, brief description, time duration, cost per hour and task category),\ndetails about the execution of the task (end date, delay, brief \ndescription of the quality of the work) and information about the \nfreelancer that worked on the task (id, name, level of expertise, \ne-mail, NIF, IBAN, address and country)
+deactivate UI
+COL -> UI : inserts the requested information
+activate UI
+UI -> CTL : newTransaction(String transId, String taskId, String taskDescription,\nTime taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate, double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount, String address, String country)
+activate CTL
+CTL -> APP : app = getInstance()
+activate APP
+deactivate APP
+CTL -> _APP: getCurrentSession()
+activate _APP
+deactivate _APP
+CTL -> SES: email = getEmailUser()
+activate SES
+deactivate SES
+CTL -> CO: regOrg = getRegisterOrganizations()
+activate CO
+deactivate CO
+CTL -> RO: org = getOrganizationByUserEmail(email)
+activate RO
+deactivate RO
+CTL -> O: lstColl = getListCollaborators()
+activate O
+deactivate O
+CTL -> LC: coll = getCollaboratorByEmail(email)
+activate LC
+deactivate LC
+CTL -> O : getListTasks()
+activate O
+deactivate O
+CTL -> LST : flagTask = existsTaskByID(taskId)
+activate LST
+deactivate LST
+CTL -> CO : getRegisterFreelancer()
+activate CO
+deactivate CO
+CTL -> RFR : flagFreelancer = existsFreelancerByID(freelancerId)
+activate RFR
+deactivate RFR
+opt [ flagTask == true and flagFreelancer == true ]
+CTL -> RT : transaction = newTransaction(String transId, String taskId, String taskDescription,int taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate,double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount,String address, String country)
+activate RT
+deactivate CTL
+
+RT --> TR**: create(String transId,String taskId, String taskDescription,\nint taskAssignedDuration, double taskCostPerHour, String taskCategory,\n Date executionFinishDate, double delay, String executionBriefDescription, String freelancerId,\nString freelancerName, String freelancerExpertise, String freelancerEmail,\nString freelancerNIF, String freelancerBankAccount, String address, String country)
+RT -> RT: validateTransaction(transaction)
+activate TR
+TR -> ":Execution"** : create(Date executionFinishDate, double delay, String executionBriefDescription)
+deactivate TR
+UI --> COL: automatically computes the amount to pay to the freelancer \nand presents the results
+deactivate RT
+UI -> CTL: computeAmount()
+deactivate UI
+activate CTL
+CTL -> TR: computeAmount()
+activate TR
+deactivate CTL
+deactivate TR
+COL -> UI:  verifies the amount to pay to the freelancer.
+activate UI
+UI --> COL: displays the data and asks for confirmation.
+deactivate UI
+COL -> UI: confirms
+activate UI
+activate CTL
+UI -> CTL: registerTransaction()
+CTL -> RT: registerTransaction(transaction)
+activate RT
+RT -> RT : validateTransaction(transaction)
+RT -> RT : addTransaction(transaction)
+UI --> COL: successful operation
+deactivate RT
+deactivate UI
+deactivate CTL
+deactivate CTL
+end opt
+@enduml

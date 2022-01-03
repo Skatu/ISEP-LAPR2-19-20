@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="delayPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.OrganizationStatDelayChartUI">
+    <children>
+        <AnchorPane prefHeight="623.0" prefWidth="987.0">
+            <children>
+                <Pane prefHeight="623.0" prefWidth="987.0" style="-fx-background-color: #1D2026;">
+                    <children>
+                        <Label alignment="CENTER" layoutX="284.0" layoutY="40.0" prefHeight="23.0" prefWidth="494.0" text="Delay performance statistics for Organization's Freelancers" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI" size="18.0" />
+                            </font>
+                        </Label>
+                        <BarChart fx:id="barChartDelay" animated="false" layoutX="454.0" layoutY="141.0" prefHeight="342.0" prefWidth="429.0" style="-fx-background-color: white;" title="Delay Statistics">
+                            <xAxis>
+                                <CategoryAxis fx:id="intervalsDelay" side="BOTTOM" />
+                            </xAxis>
+                            <yAxis>
+                                <NumberAxis fx:id="numberTasksDelay" animated="false" label="Number of Tasks" side="LEFT" />
+                            </yAxis>
+                        </BarChart>
+                        <HBox alignment="CENTER" layoutY="557.0" prefHeight="66.0" prefWidth="987.0">
+                            <children>
+                                <Button fx:id="btnGoBackToMenu" alignment="CENTER" blendMode="ADD" layoutX="187.0" layoutY="48.0" mnemonicParsing="false" onAction="#btnGoBackToMenuOnAction" prefHeight="25.0" prefWidth="148.0" text="Go Back To Menu">
+                                    <HBox.margin>
+                                        <Insets right="20.0" />
+                                    </HBox.margin>
+                                </Button>
+                        <Button fx:id="btnGoBackToPaymentStatistics" alignment="CENTER" blendMode="ADD" layoutX="440.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnGoBackToPaymentStatisticsOnAction" prefHeight="25.0" prefWidth="234.0" text="Go Back To Payment Statistics" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" layoutY="489.0" prefHeight="25.0" prefWidth="987.0">
+                            <children>
+                                <Label fx:id="lblNormalDistribution" alignment="CENTER" contentDisplay="CENTER" prefHeight="21.0" prefWidth="987.0" textAlignment="CENTER" textFill="WHITE">
+                                    <font>
+                                        <Font name="Segoe UI" size="13.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                  <VBox layoutX="122.0" layoutY="141.0" prefHeight="342.0" prefWidth="288.0">
+                     <children>
+                        <ListView fx:id="lstViewDelay" prefHeight="342.0" prefWidth="279.0" />
+                     </children>
+                  </VBox>
+                        <HBox alignment="CENTER" layoutY="506.0" prefHeight="55.0" prefWidth="987.0">
+                            <children>
+                                <Label text="Overall Mean" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets left="-10.0" right="10.0" />
+                                    </HBox.margin>
+                                </Label>
+                                <TextField fx:id="txtOverallMean" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="95.0">
+                                    <HBox.margin>
+                                        <Insets right="200.0" />
+                                    </HBox.margin>
+                                </TextField>
+                                <Label text="Overall Standard Deviation" textFill="WHITE">
+                                    <HBox.margin>
+                                        <Insets right="10.0" />
+                                    </HBox.margin>
+                                </Label>
+                                <TextField fx:id="txtOverallDeviation" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="95.0" />
+                            </children>
+                        </HBox>
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

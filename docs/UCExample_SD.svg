@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1062px" preserveAspectRatio="none" style="width:2461px;height:1062px;" version="1.1" viewBox="0 0 2461 1062" width="2461px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1nrzybg8vy2zg" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="862.9863" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="91" y="96.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="59.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="117.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="372.9492" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="206.7305"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="350.4844" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="608.9902"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="299.3281" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="881" y="251.041"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="284.8633" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="881" y="638.3008"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="179.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="295.6621"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="520.3691"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="255.5527" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="667.6113"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1699" y="325.2832"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1699" y="400.082"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2263" y="739.2324"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2263" y="798.543"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2398.5" y="857.8535"/>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="2032" y="333.5938"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="2039" y="354.1289">end:EnderecoPostal</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="2195" y="408.3926"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="2202" y="428.9277">colab:Colaborador</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="1766.5" y="453.8809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1773.5" y="474.416">org:Organizacao</text>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="96" x2="96" y1="86.4883" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="463.5" x2="463.5" y1="86.4883" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="885.5" x2="885.5" y1="86.4883" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1293" x2="1293" y1="86.4883" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1703.5" x2="1703.5" y1="86.4883" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1832.5" x2="1832.5" y1="486.625" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="2108" x2="2108" y1="366.3379" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="2268" x2="2268" y1="441.1367" y2="977.7852"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="2403" x2="2403" y1="86.4883" y2="977.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="83.5352">Utilizador Não Registado</text>
+        <ellipse cx="96" cy="13" fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,21 L96,48 M83,29 L109,29 M96,48 L83,63 M96,48 L109,63 " fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="990.3203">Utilizador Não Registado</text>
+        <ellipse cx="96" cy="1003.2734" fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,1011.2734 L96,1038.2734 M83,1019.2734 L109,1019.2734 M96,1038.2734 L83,1053.2734 M96,1038.2734 L109,1053.2734 " fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="404.5" y="34.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="432" y="55.0469">:Registar</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="411.5" y="71.5352">OrganizacaoUI</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="404.5" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="432" y="997.3203">:Registar</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="411.5" y="1013.8086">OrganizacaoUI</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="161" x="803.5" y="34.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="810.5" y="55.0469">:RegistarOrganizacao</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="849" y="71.5352">Controller</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="161" x="803.5" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="810.5" y="997.3203">:RegistarOrganizacao</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="849" y="1013.8086">Controller</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="92" x="1245" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="1252" y="71.5352">:Plataforma</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="92" x="1245" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="1252" y="997.3203">:Plataforma</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="1651.5" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="1658.5" y="71.5352">Organizacao</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="1651.5" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="1658.5" y="997.3203">Organizacao</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="1766.5" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1773.5" y="997.3203">org:Organizacao</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="2032" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="2039" y="997.3203">end:EnderecoPostal</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="2195" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="2202" y="997.3203">colab:Colaborador</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="2351" y="34.5117"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="2358" y="55.0469">:Autorizacao</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="2377.5" y="71.5352">Facade</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="2351" y="976.7852"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="2358" y="997.3203">:Autorizacao</text>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="2377.5" y="1013.8086">Facade</text>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="862.9863" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="91" y="96.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="59.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="117.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="372.9492" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="206.7305"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="350.4844" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="459" y="608.9902"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="299.3281" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="881" y="251.041"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="284.8633" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="881" y="638.3008"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="179.2188" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="295.6621"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="520.3691"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="255.5527" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1288" y="667.6113"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1699" y="325.2832"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="1699" y="400.082"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2263" y="739.2324"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2263" y="798.543"/>
+        <rect fill="#FFFFFF" filter="url(#f1nrzybg8vy2zg)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="2398.5" y="857.8535"/>
+        <polygon fill="#A80036" points="447,113.4883,457,117.4883,447,121.4883,451,117.4883" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="453" y1="117.4883" y2="117.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="108" y="113.0566">1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="121" y="113.0566">registar organização</text>
+        <polygon fill="#A80036" points="112,172.7988,102,176.7988,112,180.7988,108,176.7988" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="106" x2="463" y1="176.7988" y2="176.7988"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="118" y="157.6777">2</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="131" y="142.3672">solicita dados organização</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="212" x="131" y="157.6777">(nome,NIF,endereço,tlf,site,email)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="317" x="135" y="172.9883">e sobre o gestor (nomeG,função,tlfG, emailG, pwd)</text>
+        <polygon fill="#A80036" points="447,202.7305,457,206.7305,447,210.7305,451,206.7305" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="453" y1="206.7305" y2="206.7305"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="108" y="202.2988">3</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="187" x="121" y="202.2988">introduz os dados solicitados</text>
+        <polygon fill="#A80036" points="869,247.041,879,251.041,869,255.041,873,251.041" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="469" x2="875" y1="251.041" y2="251.041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="476" y="239.2646">4</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="326" x="489" y="231.6094">novaOrganizacao(nome,NIF,endLocal,endCodPostal,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="380" x="489" y="246.9199">endLocalidade,tlf,site,email,nomeG,função,tlfG, emailG,pwd)</text>
+        <polygon fill="#A80036" points="1276,291.6621,1286,295.6621,1276,299.6621,1280,295.6621" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="891" x2="1282" y1="295.6621" y2="295.6621"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="898" y="283.8857">5</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="365" x="911" y="276.2305">org = novaOrganizacao(nome,NIF,endLocal,endCodPostal,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="350" x="911" y="291.541">endLocalidade,tlf,site,email,nomeG,função,tlfG, emailG)</text>
+        <polygon fill="#A80036" points="1687,321.2832,1697,325.2832,1687,329.2832,1691,325.2832" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="1693" y1="325.2832" y2="325.2832"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="1305" y="320.8516">6</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="369" x="1318" y="320.8516">end=novoEndereco(endLocal,endCodPostal,endLocalidade)</text>
+        <polygon fill="#A80036" points="2020,350.5938,2030,354.5938,2020,358.5938,2024,354.5938" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1704" x2="2026" y1="354.5938" y2="354.5938"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="1711" y="350.1621">7</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="286" x="1724" y="350.1621">create(endLocal,endCodPostal,endLocalidade)</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="149" x="2032" y="333.5938"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="2039" y="354.1289">end:EnderecoPostal</text>
+        <polygon fill="#A80036" points="1687,396.082,1697,400.082,1687,404.082,1691,400.082" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="1693" y1="400.082" y2="400.082"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="1305" y="395.6504">8</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="329" x="1318" y="395.6504">colab=novoColaborador(nomeG,função,tlfG, emailG)</text>
+        <polygon fill="#A80036" points="2183,425.3926,2193,429.3926,2183,433.3926,2187,429.3926" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1704" x2="2189" y1="429.3926" y2="429.3926"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="1711" y="424.9609">9</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="215" x="1724" y="424.9609">create(nomeG,função,tlfG, emailG)</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="2195" y="408.3926"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="128" x="2202" y="428.9277">colab:Colaborador</text>
+        <polygon fill="#A80036" points="1754.5,470.8809,1764.5,474.8809,1754.5,478.8809,1758.5,474.8809" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="1293" x2="1760.5" y1="474.8809" y2="474.8809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1300" y="470.4492">10</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="254" x="1322" y="470.4492">create(nome,NIF,end,tlf,site,email,colab)</text>
+        <rect fill="#FEFECE" filter="url(#f1nrzybg8vy2zg)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="129" x="1766.5" y="453.8809"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="115" x="1773.5" y="474.416">org:Organizacao</text>
+        <polygon fill="#A80036" points="1276,516.3691,1286,520.3691,1276,524.3691,1280,520.3691" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="891" x2="1282" y1="520.3691" y2="520.3691"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="898" y="515.9375">11</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="178" x="920" y="515.9375">validaOrganizacao(org, pwd)</text>
+        <polygon fill="#A80036" points="112,575.6797,102,579.6797,112,583.6797,108,579.6797" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="106" x2="463" y1="579.6797" y2="579.6797"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="118" y="575.248">12</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="246" x="140" y="575.248">apresenta dados e solicita confirmação</text>
+        <polygon fill="#A80036" points="447,604.9902,457,608.9902,447,612.9902,451,608.9902" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="453" y1="608.9902" y2="608.9902"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="108" y="604.5586">13</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="130" y="604.5586">confirma</text>
+        <polygon fill="#A80036" points="869,634.3008,879,638.3008,869,642.3008,873,638.3008" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="469" x2="875" y1="638.3008" y2="638.3008"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="476" y="633.8691">14</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="498" y="633.8691">registaOrganizacao()</text>
+        <polygon fill="#A80036" points="1276,663.6113,1286,667.6113,1276,671.6113,1280,667.6113" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="891" x2="1282" y1="667.6113" y2="667.6113"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="898" y="663.1797">15</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="184" x="920" y="663.1797">registaOrganizacao(org, pwd)</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="1340" y1="697.2324" y2="697.2324"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1340" x2="1340" y1="697.2324" y2="710.2324"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1299" x2="1340" y1="710.2324" y2="710.2324"/>
+        <polygon fill="#A80036" points="1309,706.2324,1299,710.2324,1309,714.2324,1305,710.2324" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1305" y="692.4902">16</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="164" x="1327" y="692.4902">validaOrganizao(org, pwd)</text>
+        <polygon fill="#A80036" points="2251,735.2324,2261,739.2324,2251,743.2324,2255,739.2324" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="2257" y1="739.2324" y2="739.2324"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1305" y="734.8008">17</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="127" x="1327" y="734.8008">nomeG = getNome()</text>
+        <polygon fill="#A80036" points="2251,794.543,2261,798.543,2251,802.543,2255,798.543" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="2257" y1="798.543" y2="798.543"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1305" y="794.1113">18</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="1327" y="794.1113">emailG = getEmail()</text>
+        <polygon fill="#A80036" points="2386.5,853.8535,2396.5,857.8535,2386.5,861.8535,2390.5,857.8535" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="2392.5" y1="857.8535" y2="857.8535"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1305" y="853.4219">19</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="484" x="1327" y="853.4219">registaUtilizadorComPapeis(nomeG,emailG,pwd,["GESTOR","COLABORADOR"])</text>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1298" x2="1340" y1="922.4746" y2="922.4746"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1340" x2="1340" y1="922.4746" y2="935.4746"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1293" x2="1340" y1="935.4746" y2="935.4746"/>
+        <polygon fill="#A80036" points="1303,931.4746,1293,935.4746,1303,939.4746,1299,935.4746" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="1305" y="917.7324">20</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="116" x="1327" y="917.7324">addOrganizao(org)</text>
+        <polygon fill="#A80036" points="107,955.4746,97,959.4746,107,963.4746,103,959.4746" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="101" x2="463" y1="959.4746" y2="959.4746"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="113" y="955.043">21</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="135" y="955.043">operação bem sucedida</text>
+        <!--
+@startuml
+autonumber
+
+actor "Utilizador Não Registado" as UNR
+participant ":Registar\nOrganizacaoUI" as UI
+participant ":RegistarOrganizacao\nController" as CTRL
+participant ":Plataforma" as PLAT
+participant "Organizacao" as _ORG
+participant "org:Organizacao" as ORG
+participant "end:EnderecoPostal" as END
+participant "colab:Colaborador" as COLAB
+participant ":Autorizacao\nFacade" as AUT
+
+
+activate UNR
+UNR -> UI : registar organização
+activate UI
+UI - -> UNR : solicita dados organização \n(nome,NIF,endereço,tlf,site,email)\n e sobre o gestor (nomeG,função,tlfG, emailG, pwd)
+deactivate UI
+
+UNR -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL : novaOrganizacao(nome,NIF,endLocal,endCodPostal,\nendLocalidade,tlf,site,email,nomeG,função,tlfG, emailG,pwd)
+activate CTRL
+
+CTRL -> PLAT: org = novaOrganizacao(nome,NIF,endLocal,endCodPostal,\nendLocalidade,tlf,site,email,nomeG,função,tlfG, emailG)
+activate PLAT
+
+PLAT -> _ORG: end=novoEndereco(endLocal,endCodPostal,endLocalidade)
+activate _ORG
+_ORG - -> END ** : create(endLocal,endCodPostal,endLocalidade)
+deactivate _ORG
+
+PLAT -> _ORG: colab=novoColaborador(nomeG,função,tlfG, emailG)
+activate _ORG
+_ORG - -> COLAB ** : create(nomeG,função,tlfG, emailG)
+deactivate _ORG
+
+PLAT - -> ORG ** : create(nome,NIF,end,tlf,site,email,colab)
+deactivate PLAT
+
+CTRL -> PLAT : validaOrganizacao(org, pwd)
+activate PLAT
+deactivate PLAT
+
+deactivate CTRL
+UI - -> UNR : apresenta dados e solicita confirmação
+deactivate UI
+
+UNR -> UI : confirma
+activate UI
+
+UI -> CTRL: registaOrganizacao()
+activate CTRL
+CTRL -> PLAT: registaOrganizacao(org, pwd)
+activate PLAT
+
+PLAT -> PLAT: validaOrganizao(org, pwd)
+PLAT -> COLAB: nomeG = getNome()
+activate COLAB
+deactivate COLAB
+PLAT -> COLAB: emailG = getEmail()
+activate COLAB
+deactivate COLAB
+PLAT -> AUT: registaUtilizadorComPapeis(nomeG,emailG,pwd,["GESTOR","COLABORADOR"])
+activate AUT
+deactivate AUT
+PLAT -> PLAT: addOrganizao(org)
+
+
+deactivate PLAT
+deactivate CTRL
+UI - -> UNR : operação bem sucedida
+deactivate UI
+
+deactivate UNR
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 WEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_112-b16
+Operating System: Mac OS X
+OS Version: 10.13.6
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

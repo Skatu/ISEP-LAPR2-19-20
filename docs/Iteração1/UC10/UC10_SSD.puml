@@ -1,0 +1,21 @@
+@startuml
+actor "Organization Manager" as OM
+
+activate OM
+OM -> ":System" : Change scheduled automated payment date
+activate ":System"
+":System" -> OM : Requests necessary date (day, month and time of day)
+deactivate ":System"
+
+OM -> ":System" : Inputs requested data
+activate ":System"
+":System" -> OM : Validates and asks for confirmation of the input
+deactivate ":System"
+
+OM -> ":System" : Confirms
+activate ":System"
+":System" -> OM : Informs user of successful operation and saves changes
+deactivate ":System"
+
+deactivate OM
+@enduml

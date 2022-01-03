@@ -1,0 +1,93 @@
+@startuml
+
+
+class ShowOrganizationStatsUI { 
+}
+
+class ShowOrganizationStatsController {
+    +RegistryOrganizarions getOrganizations()
+    +TreeMap<String, Double> calculateMeanPayment()
+    +TreeMap<String, Double> calculateDeviationPayment()
+    +TreeMap<String, Double> calculateMeanDelay()
+    +TreeMap<String, Double> calculateDeviationDelay()
+    +TreeMap<String, List<Double>> determinePaymentOrganization()
+    +TreeMap<String, List<Double>> determineDelayOrganization()
+}
+
+class Platform {
+    -String name
+    +RegistryOrganization getRegistryOrganizations()
+}
+
+class RegistryOrganizations {
+    +List<Organization> getLstOrganizations()
+    
+}
+
+class Organization {
+    -String name
+    -String nif
+    -Date payDayDate
+    +TreeMap<String, List<Double>> determinePaymentOrganization()
+    +TreeMap<String, List<Double>> determineDelayOrganization()
+    +TreeMap<String, Double> calculateMeanPayment(paymentTreeMap)
+    +TreeMap<String, Double> calculateDeviationPayment(paymentTreeMap, meanPaymentsMap)
+    +TreeMap<String, Double> calculateMeanDelay(paymentTreeMap)
+    +TreeMap<String, Double> calculateDeviationDelay(paymentTreeMap, meanPaymentsMap)
+    +int determineNumberOfTasks()
+}
+
+class ListTransactions{
+    +List<Transaction> getLstTransactions()
+}
+
+
+class Execution {
+    -Date finishDate
+    -double delayHours
+    -String briefDescription
+    +double getDelay()
+}
+
+
+class Transaction {
+    -String id
+    +Execution getExecution()
+    +Freelancer getFreelancer()
+    +double computeAmount()
+}
+
+class Freelancer {
+    -String freelancerID
+    -String name
+    -String expertise
+    -String email
+    -String nif
+    -String iban
+    -String address
+    -String country
+    +String getFreelancerID()
+}
+
+class Task {
+    -String taskID
+    -String taskDescription
+    -double taskDurationInHours
+    -double taskCostPerHour
+    -String taskCategory
+
+}
+
+ShowOrganizationStatsUI ..> ShowOrganizationStatsController
+ShowOrganizationStatsController ..> Platform
+Platform "1" -- "1" RegistryOrganizations : has >
+RegistryOrganizations "1" -- "*" Organization : has >
+Organization "1" -- "1" ListTransactions : has >
+ListTransactions "1" -- "*" Transaction : has registries of >
+Organization "1" -- "*" Task: has >
+Task "1" -- "0.." Execution : details >
+Freelancer "1" -- "*" Task : executes >
+Transaction "1" -- "1" Task : specifies >
+Transaction "1" -- "1" Execution : has >
+Transaction "1" -- "1" Freelancer : has information about >
+@enduml

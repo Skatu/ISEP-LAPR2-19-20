@@ -1,0 +1,67 @@
+@startuml
+
+actor "Organization Manager" as OM
+
+participant ":PaymentTimerUI" as UI
+participant ":PaymentTimerController" as CTL
+
+participant ":Platform" as PLAT
+participant "ro:Registry\nOrganizations" as ORGS
+participant ":Organization" as _ORG
+participant "org:Organization" as ORG
+participant "date:\nDate" as DATE
+
+participant "AplicationPOT" as APOT
+participant "app:\nAplicationPOT" as APP
+participant "Session:\nActualSession" as SESH
+
+
+activate OM
+OM -> UI : 1: Begins defining a new payment date
+activate UI
+UI -> OM : 1.1: Requests new date information
+deactivate UI
+
+OM -> UI : 2: inputs information
+activate UI
+UI -> CTL : 2.1: newPaymentTimer(Date PayDayDate)
+activate CTL
+CTL -> APOT : 2.1.1: app=getInstance()
+activate APOT
+deactivate APOT
+CTL -> APP : 2.1.2: session=getActualSession()
+activate APP
+deactivate APP
+CTL -> SESH : 2.1.3: email=getEmailUser()
+activate SESH
+deactivate SESH
+CTL -> PLAT : 2.1.4: ro=getOrganizationRegistry()
+activate PLAT
+deactivate PLAT
+CTL -> _ORG : 2.1.5: org=getOrganizationByUserEmail(email)
+activate _ORG
+deactivate _ORG
+CTL -> ORG : 2.1.6: NewPaymentDate(date)
+activate ORG
+ORG -> ORG : 2.1.6.1: validatePaymentDate(date)
+deactivate ORG
+deactivate CTL
+UI->OM : 2.2: Show the information and ask for confirmation
+deactivate UI
+
+OM -> UI :  3: Confirms the information
+activate UI
+UI -> CTL : 3.1: RegisterDate()
+activate CTL
+CTL -> ORG : 3.1.1: RegisterDate(date)
+activate ORG
+ORG -> ORG : 3.1.1.1: validatePaymentDate(date)
+ORG -> ORG : 3.1.1.2: setPaymentDate(date)
+deactivate ORG
+deactivate CTL
+UI -> OM : 3.2: Informs of the operation's success
+deactivate UI
+deactivate OM
+
+
+@enduml

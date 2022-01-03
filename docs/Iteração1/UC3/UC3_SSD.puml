@@ -1,0 +1,23 @@
+@startuml
+autonumber
+actor "Collaborator" as COL
+participant ":System" as SIST
+
+activate COL
+COL -> SIST : initiates the creation of a new payment transaction
+activate SIST
+SIST --> COL: requests the introduction of a brief description of the task \n(id, brief description, time duration, cost per hour and task category), \ndetails about the execution of the task \n(end date, delay, brief description of the quality of the work) \nand information about the freelancer that worked on the task \n(id, name, level of expertise, e-mail, NIF, IBAN, address and country).
+deactivate SIST
+
+COL -> SIST: inserts the requested information
+activate SIST
+SIST --> COL: displays the data and asks for confirmation
+deactivate SIST
+
+COL -> SIST: confirms
+activate SIST
+SIST --> COL: informs successful operation
+deactivate SIST
+
+deactivate COL
+@endmul

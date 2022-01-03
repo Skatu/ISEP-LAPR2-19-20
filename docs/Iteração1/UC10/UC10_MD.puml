@@ -1,0 +1,51 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Platform {
+  -String designation
+}
+
+class Organization {
+  -String managerName
+  -String organizationDesignation
+  -String collaboratorName
+  -String managerEmail
+  -String CollaboratorEmail
+  -Date PayDayDate
+}
+
+class Collaborator {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class Manager {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class User {
+  -String email
+  -String password
+}
+
+
+Platform "1" --> "*" Organization : has registered
+
+Organization "1" --> "*" Collaborator : has
+
+Manager "1" -> "1" Organization : sets up payment timer
+Manager "1" -> "1" Collaborator : is a
+Manager "1" -> "1" User : acts as
+
+Collaborator "1" -> "1" User : acts as
+
+
+
+@enduml

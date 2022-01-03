@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="397px" preserveAspectRatio="none" style="width:524px;height:397px;" version="1.1" viewBox="0 0 524 397" width="524px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f7vib6g50iy65" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="198.1738" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="91" y="96.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="59.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="117.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="206.7305"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="265.3516"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="96" x2="96" y1="86.4883" y2="312.9727"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="481.5" x2="481.5" y1="86.4883" y2="312.9727"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="83.5352">Utilizador Não Registado</text>
+        <ellipse cx="96" cy="13" fill="#FEFECE" filter="url(#f7vib6g50iy65)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,21 L96,48 M83,29 L109,29 M96,48 L83,63 M96,48 L109,63 " fill="#FEFECE" filter="url(#f7vib6g50iy65)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="8" y="325.5078">Utilizador Não Registado</text>
+        <ellipse cx="96" cy="338.4609" fill="#FEFECE" filter="url(#f7vib6g50iy65)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <path d="M96,346.4609 L96,373.4609 M83,354.4609 L109,354.4609 M96,373.4609 L83,388.4609 M96,373.4609 L109,388.4609 " fill="#FEFECE" filter="url(#f7vib6g50iy65)" style="stroke: #A80036; stroke-width: 2.0;"/>
+        <rect fill="#FEFECE" filter="url(#f7vib6g50iy65)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="71" x="444.5" y="51"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="451.5" y="71.5352">:Sistema</text>
+        <rect fill="#FEFECE" filter="url(#f7vib6g50iy65)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="71" x="444.5" y="311.9727"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="451.5" y="332.5078">:Sistema</text>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="198.1738" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="91" y="96.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="59.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="117.4883"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="206.7305"/>
+        <rect fill="#FFFFFF" filter="url(#f7vib6g50iy65)" height="29.3105" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="477" y="265.3516"/>
+        <polygon fill="#A80036" points="465,113.4883,475,117.4883,465,121.4883,469,117.4883" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="471" y1="117.4883" y2="117.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="108" y="113.0566">1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="121" y="113.0566">registar organização</text>
+        <polygon fill="#A80036" points="112,172.7988,102,176.7988,112,180.7988,108,176.7988" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="106" x2="481" y1="176.7988" y2="176.7988"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="118" y="157.6777">2</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="131" y="142.3672">solicita dados organização</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="290" x="131" y="157.6777">(nome,NIF, endereço, telefone, website, email)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="335" x="135" y="172.9883">e sobre o gestor (nome, função, telefone, email, pwd)</text>
+        <polygon fill="#A80036" points="465,202.7305,475,206.7305,465,210.7305,469,206.7305" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="471" y1="206.7305" y2="206.7305"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="108" y="202.2988">3</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="187" x="121" y="202.2988">introduz os dados solicitados</text>
+        <polygon fill="#A80036" points="112,232.041,102,236.041,112,240.041,108,236.041" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="106" x2="481" y1="236.041" y2="236.041"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="118" y="231.6094">4</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="246" x="131" y="231.6094">apresenta dados e solicita confirmação</text>
+        <polygon fill="#A80036" points="465,261.3516,475,265.3516,465,269.3516,469,265.3516" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="101" x2="471" y1="265.3516" y2="265.3516"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="108" y="260.9199">5</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="56" x="121" y="260.9199">confirma</text>
+        <polygon fill="#A80036" points="107,290.6621,97,294.6621,107,298.6621,103,294.6621" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="101" x2="481" y1="294.6621" y2="294.6621"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="9" x="113" y="290.2305">6</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="126" y="290.2305">operação bem sucedida</text>
+        <!--
+@startuml
+autonumber
+actor "Utilizador Não Registado" as UNR
+
+activate UNR
+UNR -> ":Sistema" : registar organização
+activate ":Sistema"
+":Sistema" - -> UNR : solicita dados organização \n(nome,NIF, endereço, telefone, website, email)\n e sobre o gestor (nome, função, telefone, email, pwd)
+deactivate ":Sistema"
+
+UNR -> ":Sistema" : introduz os dados solicitados
+activate ":Sistema"
+":Sistema" - -> UNR : apresenta dados e solicita confirmação
+deactivate ":Sistema"
+
+UNR -> ":Sistema" : confirma
+activate ":Sistema"
+":Sistema" - -> UNR : operação bem sucedida
+deactivate ":Sistema"
+
+deactivate UNR
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 WEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_112-b16
+Operating System: Mac OS X
+OS Version: 10.13.6
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

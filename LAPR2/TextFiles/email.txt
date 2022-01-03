@@ -1,0 +1,10 @@
+
+------Account m@email.com
+	Password: Jaw7cQO
+------Account c@email.com
+	Password: 4aTBc2d
+------Delay Warning Email
+e-mail: Marion190@hotmail.com
+Watch out!
+Your income is weak!
+Your statistics show a delay higher than 3 hours and your percentage of delays is higher than the overall percentage of delays.

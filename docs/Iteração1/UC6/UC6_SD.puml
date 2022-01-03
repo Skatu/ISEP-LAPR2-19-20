@@ -1,0 +1,114 @@
+@startuml
+autonumber
+
+actor "Administrator" as ADM
+participant ":ShowFreelancerPerformanceStatisticsUI" as UI
+participant ":ShowFreelancerPerformanceStatisticsController" as CTL
+participant ":Platform" as PLT
+participant ":Organization" as O
+participant ":Transaction" as T
+participant ":RegistryOrganizations" as RO
+
+activate ADM
+ADM -> UI : initiates the process of viewing freelancers performance statistics
+activate UI
+
+UI -> CTL : getOrganizations()
+activate CTL
+CTL -> PLT : getRegisterOrganizations()
+activate PLT
+deactivate PLT
+CTL -> RO : getLstOrganizations()
+activate RO
+deactivate RO
+deactivate CTL
+
+UI -> CTL : determinePaymentPlatform()
+activate CTL
+
+CTL -> O : determinePaymentOrganization(mapOrganizationPayment)
+activate O
+ref over O
+SD_determinePaymentOrganization()
+end ref
+CTL <-- O : mapOrganizationPayment
+deactivate O
+
+CTL -> RO : determinePaymentPlatform()
+activate RO
+ref over RO
+SD_determinePaymentPlatform
+end ref
+CTL <-- RO : mapTotalPayments
+deactivate RO
+deactivate CTL
+
+UI -> CTL : calculateMeanPayment()
+activate CTL
+CTL -> RO : calculateMeanPayment(mapTotalPayments)
+activate RO
+deactivate RO
+deactivate CTL
+
+UI -> CTL : calculateDeviationPayment()
+activate CTL
+CTL -> RO : calculateDeviationPayment(mapTotalPayments, mapMeanPayments)
+activate RO
+deactivate RO
+deactivate CTL
+
+
+UI -> CTL : determineDelayPlatform()
+activate CTL
+CTL -> O : determineDelayOrganization(mapOrganizationDelay)
+activate O
+ref over O
+SD_determineDelayOrganization()
+end ref
+CTL <-- O : mapOrganizationDelay
+deactivate O
+
+CTL -> RO : determineDelayPlatform()
+activate RO
+ref over RO
+SD_determineDelayPlatform()
+end ref
+CTL <-- RO : mapTotalDelays
+deactivate RO
+deactivate CTL
+
+UI -> CTL : calculcateMeanDelay()
+activate CTL
+CTL -> RO : calculateMeanDelay(mapTotalDelays)
+activate RO
+deactivate RO
+deactivate CTL
+
+UI -> CTL : calculateDeviationDelay()
+activate CTL
+CTL -> RO : calculateDeviationDelay(mapTotalDelays, mapMeanDelays)
+activate RO
+deactivate RO
+deactivate CTL
+
+
+UI -> CTL : calculateNormalDistribution()
+activate CTL
+CTL -> O: determineNumberOfTasks()
+activate O
+deactivate O
+CTL -> RO: calculateNormalDistribution()
+activate RO
+deactivate RO
+deactivate CTL
+
+UI --> ADM : calculates and displays performance statistics for all freelancers \n(i.e. the average and standard deviation of \ndelay and payment, along with histograms for each and all freelancers).
+deactivate UI
+ADM -> UI : confirms
+activate UI
+UI --> ADM : successful operation
+deactivate UI
+deactivate ADM
+
+
+@enduml

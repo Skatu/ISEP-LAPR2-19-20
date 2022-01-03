@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="LAPR2_G30_T4J_PAYMENT_APP">
+    <output-path>$PROJECT_DIR$/out/artifacts/LAPR2_G30_T4J_PAYMENT_APP</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="main/java/pt.ipp.isep.dei.lapr2/pot/ui/MainApp" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="LAPR2_G30_T4J_PAYMENT_APP.jar">
+        <element id="module-output" name="LAPR2_G30_T4J_PAYMENT_APP" />
+      </element>
+    </root>
+  </artifact>
+</component>

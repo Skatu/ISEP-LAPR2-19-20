@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="registerFreelancerPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.RegistryFreelancerUI">
+   <children>
+      <AnchorPane fx:id="tablePane" prefHeight="623.0" prefWidth="987.0">
+         <children>
+            <Pane fx:id="registerFreePane" prefHeight="623.0" prefWidth="425.0" style="-fx-background-color: #1D2026;">
+               <children>
+                  <VBox layoutX="126.0" layoutY="139.0" prefHeight="278.0" prefWidth="173.0">
+                     <children>
+                        <TextField fx:id="txtFreelancerName" alignment="CENTER" promptText="freelancerName">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="txtFreelancerEmail" alignment="CENTER" promptText="freelancerEmail">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <ComboBox fx:id="cmbExpertise" prefHeight="25.0" prefWidth="173.0">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </ComboBox>
+                        <TextField fx:id="txtFreelancerIBAN" alignment="CENTER" promptText="freelancerIBAN">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="txtFreelancerNIF" alignment="CENTER" promptText="freelancerNIF">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="txtFreelancerAddress" alignment="CENTER" promptText="freelancerAddress">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="txtFreelancerCountry" alignment="CENTER" promptText="freelancerCountry">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <Label alignment="CENTER" layoutX="6.0" layoutY="92.0" prefHeight="23.0" prefWidth="418.0" text="Insert the following information:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="23.0" prefWidth="173.0" text="Register Freelancer" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="261.0" layoutY="446.0" mnemonicParsing="false" onAction="#btnRegister" prefHeight="25.0" prefWidth="77.0" text="Register" />
+                  <Button layoutX="88.0" layoutY="446.0" mnemonicParsing="false" onAction="#btnCancel" prefHeight="25.0" prefWidth="77.0" text="Cancel" />
+                  <Button layoutX="174.0" layoutY="446.0" mnemonicParsing="false" onAction="#btnClear" prefHeight="25.0" prefWidth="77.0" text="Clear" />
+               </children>
+            </Pane>
+            <Pane layoutX="425.0" prefHeight="623.0" prefWidth="562.0">
+               <children>
+                  <TableView fx:id="tableView" prefHeight="623.0" prefWidth="562.0">
+                    <columns>
+                        <TableColumn fx:id="columnID" prefWidth="130.0" text="ID" />
+                      <TableColumn fx:id="columnFreelancer" prefWidth="121.0" text="Freelancer" />
+                      <TableColumn fx:id="columnEmail" prefWidth="181.0" text="Email" />
+                        <TableColumn fx:id="columnExpertise" prefWidth="129.0" text="Level of Expertise" />
+                    </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

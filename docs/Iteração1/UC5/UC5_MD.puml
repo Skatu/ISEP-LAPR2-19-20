@@ -1,0 +1,79 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Platform {
+  -String designation
+}
+
+class Organization {
+  -String managerName
+  -String organizationDesignation
+  -String collaboratorName
+  -String managerEmail
+  -String CollaboratorEmail
+  -Date PayDayDate
+}
+
+class Transaction {
+  -String transID
+}
+
+class Task {
+  -String id
+  -String briefDescription
+  -double duration
+  -double cost
+  -String category
+  -String idFreelancer
+}
+
+class Freelancer {
+  -String name
+  -String id
+  -String lvlExpertise
+  -String email
+  -String nif
+  -String IBAN
+}
+
+class Collaborator {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class Manager {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class User {
+  -String email
+  -String password
+}
+
+class Bill {
+  -String receipt
+}
+
+
+Platform "1" --> "*" Organization : has registered
+
+Organization "1" --> "*" Collaborator : has
+
+Manager "1" --> "1" Organization : sets up payment timer
+Manager "1" --> "1" Collaborator : is a
+Manager "1" --> "1" User : acts as
+
+Collaborator "1" --> "1" User : acts as
+
+Organization "1" --> "*" Bill : has
+Bill "1" --> "*" Transaction : has
+Bill "1" --> "*" Freelancer : has
+Transaction "1" --> "1" Task : specifies
+@enduml

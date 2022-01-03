@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="registerOrgPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.RegisterOrganizationUI">
+   <children>
+      <AnchorPane prefHeight="623.0" prefWidth="987.0">
+         <children>
+            <Pane prefHeight="623.0" prefWidth="255.0" style="-fx-background-color: #1D2026;">
+               <children>
+                  <VBox alignment="CENTER" layoutX="22.0" layoutY="143.0" prefHeight="315.0" prefWidth="209.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="218.0" text="Organization" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin></Label>
+                        <TextField fx:id="txtOrgName" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="name">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <TextField fx:id="txtOrgNIF" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="NIF">
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </TextField>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="220.0" text="Manager" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin></Label>
+                        <TextField fx:id="txtManagerName" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="name">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin></TextField>
+                        <TextField fx:id="txtManagerEmail" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="e-mail">
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin></TextField>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="226.0" text="Collaborator" textFill="WHITE">
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin></Label>
+                        <TextField fx:id="txtCollabName" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="name">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin></TextField>
+                        <TextField fx:id="txtCollabEmail" alignment="CENTER" prefHeight="9.0" prefWidth="173.0" promptText="e-mail" />
+                     </children>
+                  </VBox>
+                  <Label layoutX="13.0" layoutY="109.0" prefHeight="23.0" prefWidth="227.0" text="Please insert the following information:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutY="14.0" prefHeight="25.0" prefWidth="255.0" text="Register Organization" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="133.0" layoutY="458.0" mnemonicParsing="false" onAction="#btnConfirmOnAction" prefHeight="25.0" prefWidth="98.0" text="Register" />
+                  <Button layoutX="22.0" layoutY="458.0" mnemonicParsing="false" onAction="#btnClearOnAction" prefHeight="25.0" prefWidth="98.0" text="Clear" />
+                  <Button layoutX="22.0" layoutY="545.0" mnemonicParsing="false" onAction="#btnCancelOnAction" prefHeight="25.0" prefWidth="98.0" text="Back" />
+               </children>
+            </Pane>
+            <Pane layoutX="257.0" prefHeight="623.0" prefWidth="734.0">
+               <children>
+                  <TableView fx:id="tableOrgs" layoutX="-3.0" prefHeight="623.0" prefWidth="742.0">
+                     <columns>
+                        <TableColumn fx:id="tbOrganizationName" prefWidth="185.5" text="Organization name" />
+                        <TableColumn fx:id="tbOrganizationNIF" prefWidth="140.0" text="Organization NIF" />
+                        <TableColumn fx:id="tbManager" prefWidth="208.75" text="Manager" />
+                        <TableColumn fx:id="tbCollaborator" prefWidth="208.75" text="Collaborator" />
+                     </columns>
+                  </TableView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="paymentPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.PerformanceStatFreeltPayChartUI">
+    <children>
+        <AnchorPane prefHeight="623.0" prefWidth="987.0">
+            <children>
+                <Pane fx:id="tablesPane" prefHeight="623.0" prefWidth="987.0" style="-fx-background-color: #1D2026;">
+                    <children>
+                        <Label alignment="CENTER" layoutX="284.0" layoutY="40.0" prefHeight="23.0" prefWidth="409.0" text="Payment performance statistics for one freelancer" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="Segoe UI" size="18.0" />
+                            </font>
+                        </Label>
+                  <BarChart fx:id="barChartPayment" layoutX="274.0" layoutY="93.0" prefHeight="342.0" prefWidth="429.0" style="-fx-background-color: white;" title="Payment Statistics">
+                     <xAxis>
+                        <CategoryAxis fx:id="intervalsPayment" side="BOTTOM" />
+                     </xAxis>
+                     <yAxis>
+                        <NumberAxis fx:id="numberPayments" label="Number of Payments" side="LEFT" />
+                     </yAxis>
+                  </BarChart>
+                  <HBox alignment="CENTER" layoutX="-1.0" layoutY="476.0" prefHeight="80.0" prefWidth="987.0">
+                     <children>
+                        <Label text="Mean" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="-10.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="txtMean" alignment="CENTER" editable="false" prefHeight="25.0" prefWidth="95.0">
+                           <HBox.margin>
+                              <Insets right="30.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label layoutX="436.0" layoutY="52.0" text="Standard Deviation" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="txtDeviation" alignment="CENTER" editable="false" layoutX="476.0" layoutY="48.0" prefHeight="25.0" prefWidth="95.0">
+                           <HBox.margin>
+                              <Insets right="30.0" />
+                           </HBox.margin></TextField>
+                        <Label fx:id="lblFreelancerID" layoutX="298.0" layoutY="42.0" text="Freelancer ID" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="txtFreelancerID" alignment="CENTER" editable="false" layoutX="338.0" layoutY="38.0" prefHeight="25.0" prefWidth="95.0" />
+                     </children>
+                  </HBox>
+                        <HBox alignment="CENTER" layoutX="-1.0" layoutY="556.0" prefHeight="67.0" prefWidth="987.0">
+                            <children>
+                                <Button fx:id="btnReturnToMenu" alignment="CENTER" blendMode="ADD" layoutX="187.0" layoutY="48.0" mnemonicParsing="false" onAction="#btnReturnToMenuOnAction" prefHeight="25.0" prefWidth="109.0" text="Go Back to Menu">
+                                    <HBox.margin>
+                                        <Insets right="20.0" />
+                                    </HBox.margin>
+                                </Button>
+                        <Button fx:id="btnDelay" alignment="CENTER" blendMode="ADD" layoutX="463.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnDelayOnAction" prefHeight="25.0" prefWidth="133.0" text="Check Delay Statistics" />
+                            </children>
+                        </HBox>
+                    </children>
+                </Pane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+@startuml
+hide methods
+left to right direction
+
+class Execution {
+    - Date finishDate
+    - int delayHours
+    - String briefDescription
+}
+
+class Freelancer {
+    - String freelancerID
+    - String name
+    - String expertise
+    - String email
+    - String nif
+    - String iban
+    - String address
+    - String country
+}
+
+class Task {
+    - String taskID
+    - String taskDescription
+    - int taskDurationInHours
+    - double taskCostPerHour
+    - String taskCategory
+}
+
+
+class Transaction {
+    - String transID
+}
+
+class Collaborator {
+    - String name
+    - String email
+}
+
+class Organization  {
+    -String name
+    -String nif
+    -Date payDayDate
+}
+
+Organization "1" -- "1" Collaborator : has >
+Organization "1" -- "*" Task : has >
+Organization "1" -up- "*" Transaction : has >
+Transaction "1" -- "1" Freelancer : has information about >
+Transaction "1" -- "1" Task : specifies >
+Organization "1" -- "*" Payment : has registries of >
+Payment "*" -- "1" Freelancer : has degree of expertise of >
+Payment "1" -- "1" Task : has duration of >
+Payment "1" -- "1" Task : has task cost\nper hour >
+Transaction "1" -- "1" Execution : has details of >
+Collaborator "1" -- "*" Freelancer : creates >
+Collaborator "1" -- "*" Task : creates >
+Collaborator "1" -- "*" Transaction : registers >
+Task "1" -- "0.." Execution : has >
+
+@enduml

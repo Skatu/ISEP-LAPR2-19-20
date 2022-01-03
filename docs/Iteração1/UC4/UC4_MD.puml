@@ -1,0 +1,37 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+
+class Company {
+  -String designation
+}
+
+class Organization {
+  -String name
+}
+
+class Collaborator {
+  -String name
+  -String function
+  -String email
+}
+
+class User {
+  -String email
+  -String password
+}
+
+class ExternalPWDGeneratingAlgorithm {
+}
+
+Company "1" -- "*" Organization : has registered >
+Company "1" -- "1" ExternalPWDGeneratingAlgorithm : resorts to >
+
+Organization "1" -- "1" Collaborator: has >
+Organization "1" -- "1" Collaborator: has manager >
+
+Collaborator "0..1" -- "1" User: acts as >
+
+ExternalPWDGeneratingAlgorithm "1" -- "*" User : generates password >
+@enduml

@@ -1,0 +1,81 @@
+@startuml
+
+class Platform {
+  -String designation
+  +getOrganizationRegistry()
+}
+
+class RegistryOrganizations {
+    +getOrganizationByUserEmail(String)
+}
+
+class Organization {
+  -String managerName
+  -String organizationDesignation
+  -String collaboratorName
+  -String managerEmail
+  -String CollaboratorEmail
+  -Date PayDayDate
+  +NewPaymentDate(Date)
+  +RegisterDate(Date)
+  -validatePaymentDate(Date)
+  -setPaymentDate(Date)
+}
+
+class AplicationPOT {
+  +getInstance()
+  +getActualSession()
+}
+
+class ActualSession {
+  +getEmailUser()
+}
+
+class Collaborator {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class User {
+  -String email
+  -String password
+}
+
+class Manager {
+  -String name
+  -String function
+  -String email
+  -String phoneNumber
+}
+
+class PaymentTimerUI {
+
+}
+
+class PaymentTimerController {
+  -newPaymentTimer(Date)
+  -RegisterDate()
+}
+
+PaymentTimerUI ..> PaymentTimerController
+PaymentTimerController ..> Platform
+PaymentTimerController ..> RegistryOrganizations
+PaymentTimerController ..> Organization
+PaymentTimerController ..> AplicationPOT
+PaymentTimerController ..> ActualSession
+
+AplicationPOT "1" --> "1" ActualSession : interacts with
+
+Platform "1" --> "1" RegistryOrganizations : has
+RegistryOrganizations "1" --o "*" Organization : agregates
+
+Organization "1" --o "*" Collaborator : agregates
+Organization "1" --> "1" Manager : has a
+Manager "1" --> "1" Collaborator : is a
+Collaborator "1" --> "1" User : is a
+Manager ...> Organization : sets up payment timer 
+
+
+@enduml

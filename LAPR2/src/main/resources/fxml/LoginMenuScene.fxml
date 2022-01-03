@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="loginPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.ipp.isep.dei.lapr2.pot.ui.LoginMenuUI">
+    <children>
+        <AnchorPane prefHeight="623.0" prefWidth="987.0">
+            <children>
+                <Pane prefHeight="623.0" prefWidth="987.0" style="-fx-background-color: #1D2026;" />
+                <Pane layoutX="987.0" layoutY="-1.0" prefHeight="623.0" prefWidth="0.0" />
+                <GridPane layoutX="14.0" layoutY="8.0" prefHeight="604.0" prefWidth="959.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="350.0" minWidth="10.0" prefWidth="348.0" />
+                        <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="314.0" minWidth="10.0" prefWidth="265.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="346.0" minWidth="10.0" prefWidth="346.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <Label alignment="CENTER" prefHeight="23.0" prefWidth="173.0" text="Login" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1">
+                            <font>
+                                <Font name="Segoe UI" size="18.0" />
+                            </font>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <children>
+                        <Label text="E-mail" textFill="WHITE" />
+                        <TextField fx:id="txtEmail" prefHeight="16.0" prefWidth="251.0" text="adm@t4j.com" />
+                        <Label text="Password" textFill="WHITE" />
+                        <PasswordField fx:id="txtPassword" text="p123456" />
+                        <Label fx:id="lblSuccess" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="278.0" textFill="WHITE" />
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnBackAction" prefHeight="25.0" prefWidth="130.0" text="Back" />
+                              <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#btnLoginAction" prefHeight="25.0" prefWidth="130.0" text="Login" />
+                           </children>
+                        </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </GridPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

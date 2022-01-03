@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="628px" preserveAspectRatio="none" style="width:962px;height:628px;" version="1.1" viewBox="0 0 962 628" width="962px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f39k2ot7yxazd" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class Colaborador-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="138.6855" style="stroke: #A80036; stroke-width: 1.5;" width="206" x="114.5" y="481"/>
+        <ellipse cx="177.25" cy="497" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M180.2231,502.6431 Q179.6421,502.9419 179.0029,503.0913 Q178.3638,503.2407 177.6582,503.2407 Q175.1514,503.2407 173.8315,501.5889 Q172.5117,499.937 172.5117,496.8159 Q172.5117,493.6865 173.8315,492.0347 Q175.1514,490.3828 177.6582,490.3828 Q178.3638,490.3828 179.0112,490.5322 Q179.6587,490.6816 180.2231,490.9805 L180.2231,493.7031 Q179.5923,493.1221 178.9988,492.8523 Q178.4053,492.5825 177.7744,492.5825 Q176.4297,492.5825 175.7449,493.6492 Q175.0601,494.7158 175.0601,496.8159 Q175.0601,498.9077 175.7449,499.9744 Q176.4297,501.041 177.7744,501.041 Q178.4053,501.041 178.9988,500.7712 Q179.5923,500.5015 180.2231,499.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="197.75" y="501.5352">Colaborador</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="115.5" x2="319.5" y1="513" y2="513"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="122.5" y="521.9775"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="134.5" y="527.6348">String nome</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="122.5" y="534.9326"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="72" x="134.5" y="540.5898">String funcao</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="122.5" y="547.8877"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="134.5" y="553.5449">String telefone</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="122.5" y="560.8428"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="134.5" y="566.5">String email</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="115.5" x2="319.5" y1="572.8203" y2="572.8203"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="194" x="120.5" y="587.4551">Colaborador(nome,função,tlf, email)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="120.5" y="600.4102">String getNome()</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="120.5" y="613.3652">String getEmail()</text>
+        <!--class EnderecoPostal-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="99.8203" style="stroke: #A80036; stroke-width: 1.5;" width="239" x="356" y="500.5"/>
+        <ellipse cx="427.25" cy="516.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M430.2231,522.1431 Q429.6421,522.4419 429.0029,522.5913 Q428.3638,522.7407 427.6582,522.7407 Q425.1514,522.7407 423.8315,521.0889 Q422.5117,519.437 422.5117,516.3159 Q422.5117,513.1865 423.8315,511.5347 Q425.1514,509.8828 427.6582,509.8828 Q428.3638,509.8828 429.0112,510.0322 Q429.6587,510.1816 430.2231,510.4805 L430.2231,513.2031 Q429.5923,512.6221 428.9988,512.3523 Q428.4053,512.0825 427.7744,512.0825 Q426.4297,512.0825 425.7449,513.1492 Q425.0601,514.2158 425.0601,516.3159 Q425.0601,518.4077 425.7449,519.4744 Q426.4297,520.541 427.7744,520.541 Q428.4053,520.541 428.9988,520.2712 Q429.5923,520.0015 430.2231,519.4204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="88" x="447.75" y="521.0352">EnderecoPostal</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="357" x2="594" y1="532.5" y2="532.5"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="364" y="541.4775"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="376" y="547.1348">String local</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="364" y="554.4326"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="376" y="560.0898">String codPostal</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="364" y="567.3877"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="89" x="376" y="573.0449">String localidade</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="357" x2="594" y1="579.3652" y2="579.3652"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="227" x="362" y="594">EnderecoPostal(local,codPostal,localidade)</text>
+        <!--class Organizacao-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="151.6406" style="stroke: #A80036; stroke-width: 1.5;" width="423" x="6" y="252"/>
+        <ellipse cx="177.25" cy="268" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M180.2231,273.6431 Q179.6421,273.9419 179.0029,274.0913 Q178.3638,274.2407 177.6582,274.2407 Q175.1514,274.2407 173.8315,272.5889 Q172.5117,270.937 172.5117,267.8159 Q172.5117,264.6865 173.8315,263.0347 Q175.1514,261.3828 177.6582,261.3828 Q178.3638,261.3828 179.0112,261.5322 Q179.6587,261.6816 180.2231,261.9805 L180.2231,264.7031 Q179.5923,264.1221 178.9988,263.8523 Q178.4053,263.5825 177.7744,263.5825 Q176.4297,263.5825 175.7449,264.6492 Q175.0601,265.7158 175.0601,267.8159 Q175.0601,269.9077 175.7449,270.9744 Q176.4297,272.041 177.7744,272.041 Q178.4053,272.041 178.9988,271.7712 Q179.5923,271.5015 180.2231,270.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="197.75" y="272.5352">Organizacao</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="428" y1="284" y2="284"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="292.9775"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="65" x="26" y="298.6348">String nome</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="305.9326"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="26" y="311.5898">String NIF</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="318.8877"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="26" y="324.5449">String website</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="331.8428"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="78" x="26" y="337.5">String telefone</text>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="344.7979"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="26" y="350.4551">String email</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="428" y1="356.7754" y2="356.7754"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="411" x="12" y="371.4102">Organizacao(nome, NIF,webSite,telefone, email,endereco,gestorColaborador)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="307" x="12" y="384.3652">EnderecoPostal novoEndereco(local,codPostal,localidade)</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="12" x2="319" y1="386.3652" y2="386.3652"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="292" x="12" y="397.3203">Colaborador novoColaborador(nome,funcao,tlf, email)</text>
+        <line style="stroke: #000000; stroke-width: 1.0;" x1="12" x2="304" y1="399.3203" y2="399.3203"/>
+        <!--class Plataforma-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="125.7305" style="stroke: #A80036; stroke-width: 1.5;" width="376" x="464.5" y="265"/>
+        <ellipse cx="617.25" cy="281" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M620.2231,286.6431 Q619.6421,286.9419 619.0029,287.0913 Q618.3638,287.2407 617.6582,287.2407 Q615.1514,287.2407 613.8315,285.5889 Q612.5117,283.937 612.5117,280.8159 Q612.5117,277.6865 613.8315,276.0347 Q615.1514,274.3828 617.6582,274.3828 Q618.3638,274.3828 619.0112,274.5322 Q619.6587,274.6816 620.2231,274.9805 L620.2231,277.7031 Q619.5923,277.1221 618.9988,276.8523 Q618.4053,276.5825 617.7744,276.5825 Q616.4297,276.5825 615.7449,277.6492 Q615.0601,278.7158 615.0601,280.8159 Q615.0601,282.9077 615.7449,283.9744 Q616.4297,285.041 617.7744,285.041 Q618.4053,285.041 618.9988,284.7712 Q619.5923,284.5015 620.2231,283.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="637.75" y="285.5352">Plataforma</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="465.5" x2="839.5" y1="297" y2="297"/>
+        <rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="472.5" y="305.9775"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="96" x="484.5" y="311.6348">String designacao</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="465.5" x2="839.5" y1="317.9551" y2="317.9551"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="350" x="484.5" y="332.5898">Organizacao novaOrganizacao(nome,NIF,endLocal,endCodPostal,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="293" x="484.5" y="345.5449">endLocalidade,tlf,site,email,nomeG,função,tlfG, emailG)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="225" x="484.5" y="358.5">validaOrganizacao(Organizacao org, pwd)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="238" x="484.5" y="371.4551">registaAreaAtividade(Organizacao org, pwd)</text>
+        <rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="472.5" y="378.7529"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="186" x="484.5" y="384.4102">addOrganizacao(Organizacao org)</text>
+        <!--class AutorizacaoFacade-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="60.9551" style="stroke: #A80036; stroke-width: 1.5;" width="323" x="630" y="520"/>
+        <ellipse cx="732.75" cy="536" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M735.7231,541.6431 Q735.1421,541.9419 734.5029,542.0913 Q733.8638,542.2407 733.1582,542.2407 Q730.6514,542.2407 729.3315,540.5889 Q728.0117,538.937 728.0117,535.8159 Q728.0117,532.6865 729.3315,531.0347 Q730.6514,529.3828 733.1582,529.3828 Q733.8638,529.3828 734.5112,529.5322 Q735.1587,529.6816 735.7231,529.9805 L735.7231,532.7031 Q735.0923,532.1221 734.4988,531.8523 Q733.9053,531.5825 733.2744,531.5825 Q731.9297,531.5825 731.2449,532.6492 Q730.5601,533.7158 730.5601,535.8159 Q730.5601,537.9077 731.2449,538.9744 Q731.9297,540.041 733.2744,540.041 Q733.9053,540.041 734.4988,539.7712 Q735.0923,539.5015 735.7231,538.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="109" x="753.25" y="540.5352">AutorizacaoFacade</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="631" x2="952" y1="552" y2="552"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="631" x2="952" y1="560" y2="560"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="311" x="636" y="574.6348">registaUtilizadorComPapeis(nomeG,emailG,pwd,listaPapel)</text>
+        <!--class RegistarOrganizacaoController-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="73.9102" style="stroke: #A80036; stroke-width: 1.5;" width="609" x="130" y="117"/>
+        <ellipse cx="342.75" cy="133" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M345.7231,138.6431 Q345.1421,138.9419 344.5029,139.0913 Q343.8638,139.2407 343.1582,139.2407 Q340.6514,139.2407 339.3315,137.5889 Q338.0117,135.937 338.0117,132.8159 Q338.0117,129.6865 339.3315,128.0347 Q340.6514,126.3828 343.1582,126.3828 Q343.8638,126.3828 344.5112,126.5322 Q345.1587,126.6816 345.7231,126.9805 L345.7231,129.7031 Q345.0923,129.1221 344.4988,128.8523 Q343.9053,128.5825 343.2744,128.5825 Q341.9297,128.5825 341.2449,129.6492 Q340.5601,130.7158 340.5601,132.8159 Q340.5601,134.9077 341.2449,135.9744 Q341.9297,137.041 343.2744,137.041 Q343.9053,137.041 344.4988,136.7712 Q345.0923,136.5015 345.7231,135.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="175" x="363.25" y="137.5352">RegistarOrganizacaoController</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="131" x2="738" y1="149" y2="149"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="131" x2="738" y1="157" y2="157"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="597" x="136" y="171.6348">novaOrganizacao(nome,NIF,endLocal,endCodPostal,endLocalidade,tlf,site,email,nomeG,função,tlfG, emailG,pwd)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="136" y="184.5898">registaOrganizacao()</text>
+        <!--class RegistarOrganizacaoUI-->
+        <rect fill="#FEFECE" filter="url(#f39k2ot7yxazd)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="162" x="353.5" y="8"/>
+        <ellipse cx="368.5" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M371.4731,29.6431 Q370.8921,29.9419 370.2529,30.0913 Q369.6138,30.2407 368.9082,30.2407 Q366.4014,30.2407 365.0815,28.5889 Q363.7617,26.937 363.7617,23.8159 Q363.7617,20.6865 365.0815,19.0347 Q366.4014,17.3828 368.9082,17.3828 Q369.6138,17.3828 370.2612,17.5322 Q370.9087,17.6816 371.4731,17.9805 L371.4731,20.7031 Q370.8423,20.1221 370.2488,19.8523 Q369.6553,19.5825 369.0244,19.5825 Q367.6797,19.5825 366.9949,20.6492 Q366.3101,21.7158 366.3101,23.8159 Q366.3101,25.9077 366.9949,26.9744 Q367.6797,28.041 369.0244,28.041 Q369.6553,28.041 370.2488,27.7712 Q370.8423,27.5015 371.4731,26.9204 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="130" x="382.5" y="28.5352">RegistarOrganizacaoUI</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="354.5" x2="514.5" y1="40" y2="40"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="354.5" x2="514.5" y1="48" y2="48"/>
+        <path d="M434.5,56.14 C434.5,71.83 434.5,93 434.5,111.55 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="434.5,116.71,438.5,107.71,434.5,111.71,430.5,107.71,434.5,116.71" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M480.2,191.06 C506.13,211.51 539.37,237.74 569.73,261.69 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="573.8,264.91,569.2126,256.1948,569.8749,261.8127,564.2569,262.475,573.8,264.91" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M389.01,191.06 C367.89,207.79 341.9,228.39 316.6,248.45 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="312.55,251.66,322.0888,249.2081,316.4696,248.5558,317.122,242.9366,312.55,251.66" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M476.86,391.05 C445.53,404.01 413.61,418.5 384.5,434 C360.48,446.79 335.76,462.37 312.95,477.89 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="308.71,480.79,318.3954,479.0031,312.8348,477.964,313.8738,472.4034,308.71,480.79" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M602.72,391.01 C576.21,424.04 543.91,464.28 518.49,495.94 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="515.11,500.16,523.8618,495.6427,518.2387,496.2598,517.6215,490.6368,515.11,500.16" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M691.59,391.01 C717.03,431.36 749.23,482.45 770.09,515.54 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="772.83,519.89,771.4284,510.1414,770.1697,515.6564,764.6547,514.3978,772.83,519.89" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M183.91,404.19 C180.3,419.53 178.79,435.67 181.5,451 C182.95,459.17 185.02,467.54 187.44,475.8 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="189,480.92,190.2051,471.1451,187.5436,476.1368,182.552,473.4753,189,480.92" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="182.5" y="447.5684">tem</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="172.5621" y="424.2418">1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="22" x="162.6797" y="470.0919">1..*</text>
+        <path d="M217.5,404.27 C217.5,427.35 217.5,452.71 217.5,475.7 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="217.5,480.87,221.5,471.87,217.5,475.87,213.5,471.87,217.5,480.87" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="218.5" y="447.5684">tem gestor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="209.1438" y="424.329">1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="209.0625" y="470.0364">1</text>
+        <path d="M305.57,404.27 C341.2,434.72 381.48,469.14 413.87,496.83 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="417.78,500.17,413.5306,491.2851,413.9767,496.9243,408.3374,497.3704,417.78,500.17" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="355.5" y="447.5684">localizada em</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="305.0575" y="424.329">1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="401.1006" y="489.6405">1</text>
+        <!--
+@startuml
+
+class Colaborador {
+  -String nome
+  -String funcao
+  -String telefone
+  -String email
+  Colaborador(nome,função,tlf, email)
+  String getNome()
+  String getEmail()
+}
+
+class EnderecoPostal {
+  -String local
+  -String codPostal
+  -String localidade
+  EnderecoPostal(local,codPostal,localidade)
+}
+
+class Organizacao {
+  -String nome
+  -String NIF
+  -String website
+  -String telefone
+  -String email
+  Organizacao(nome, NIF,webSite,telefone, email,endereco,gestorColaborador)
+  {static} EnderecoPostal novoEndereco(local,codPostal,localidade)
+  {static} Colaborador novoColaborador(nome,funcao,tlf, email)
+}
+
+class Plataforma {
+  -String designacao
+  
+  Organizacao novaOrganizacao(nome,NIF,endLocal,endCodPostal,\nendLocalidade,tlf,site,email,nomeG,função,tlfG, emailG)
+  validaOrganizacao(Organizacao org, pwd)
+  registaAreaAtividade(Organizacao org, pwd) 
+  - addOrganizacao(Organizacao org) 
+}
+
+class AutorizacaoFacade {
+    registaUtilizadorComPapeis(nomeG,emailG,pwd,listaPapel)
+}
+
+class RegistarOrganizacaoController {
+    novaOrganizacao(nome,NIF,endLocal,endCodPostal,endLocalidade,tlf,site,email,nomeG,função,tlfG, emailG,pwd)
+    registaOrganizacao()
+}
+
+class RegistarOrganizacaoUI {
+}
+
+RegistarOrganizacaoUI ..> RegistarOrganizacaoController
+RegistarOrganizacaoController ..> Plataforma
+RegistarOrganizacaoController ..> Organizacao
+Plataforma ..> Colaborador
+Plataforma ..> EnderecoPostal
+Plataforma ..> AutorizacaoFacade
+Organizacao "1" - -> "1..*" Colaborador: tem 
+Organizacao "1" - -> "1" Colaborador: tem gestor
+Organizacao "1" - -> "1" EnderecoPostal: localizada em
+
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 17:18:59 WEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_112-b16
+Operating System: Mac OS X
+OS Version: 10.13.6
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

@@ -1,0 +1,95 @@
+@startuml
+
+class PaymentProcessTask {
+  +PaymentProcess()
+  +run()
+}
+
+abstract TimerTask {
+  +run()
+}
+
+class Platform {
+  -String designation
+  +getRegistryOrganization()
+  +getRegisterBill()
+}
+
+class RegistryOrganization {
+  +getOrganizationsToPay()
+}
+
+class Organization {
+  -String managerName
+  -String organizationDesignation
+  -String collaboratorName
+  -String managerEmail
+  -String CollaboratorEmail
+  -Date PayDayDate
+  +getPendingTransationList()
+}
+
+class Bill {
+  -String receipt
+  -String OrgName
+  -Date currentDate
+  +create(List<Transaction>)
+  +createFile()
+  +validate()
+  -validateTransaction(Transaction,Freelancer)
+  +createFreelancerTransaction(Freelancer, List<Transaction>)
+  -addTransaction(Transation,Freelancer)
+}
+
+class RegisterBill {
+  +addBill(Bill)
+  -validateBill(Bill)
+  -addBillToList(Bill)
+}
+
+class CurrencyConverter{
+
+}
+
+class Transaction {
+  -String transID
+  +getFreelancer()
+}
+
+class Freelancer {
+  -String name
+  -String id
+  -String lvlExpertise
+  -String email
+  -String nif
+  -String IBAN
+}
+
+class EmailToTextFile {
+  +sendFreelancerPaymentWarning(String, List<Transaction>, Bill)
+}
+
+
+PaymentProcessTask <- TimerTask
+
+PaymentProcessTask ..> Platform
+
+Platform "1" --> "1" RegisterBill : has
+Platform "1" --> "1" RegistryOrganization : has
+
+RegistryOrganization "1" --o "*" Organization : agregates
+
+RegisterBill "1" --o "*" Bill : agregates
+RegisterBill  --> EmailToTextFile
+
+Organization "1" --> "*" Transaction : has
+Organization "1" --> "*" Bill : has
+
+Transaction "1" --> "1" Freelancer : has
+
+Bill "1" --> "*" Transaction : has
+Bill "1" --> "*" Freelancer : has
+Bill "1" --> "1" CurrencyConverter : uses
+
+
+@enduml

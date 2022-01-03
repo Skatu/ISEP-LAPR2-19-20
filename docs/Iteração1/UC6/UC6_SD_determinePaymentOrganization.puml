@@ -1,0 +1,33 @@
+@startuml
+participant ":Organization" as O
+participant ":ListTransactions" as L
+participant ":Transaction" as TR
+participant ":Freelancer" as F
+participant "mapOrganizationPayment\n:TreeMap<String, List<Double>>" as M
+
+title SD_determinePaymentOrganization()
+
+[o-> O: determinePaymentOrganization()
+activate O
+O -> O : mapOrganizationPayment == null
+O -> L : getListTransactions()
+activate L
+deactivate L
+loop [ For each transaction ]
+O -> TR : getFreelancer()
+activate TR
+deactivate TR
+O -> F : getFreelancerID()
+activate F
+deactivate F
+O -> TR : computeAmount()
+activate TR
+deactivate TR
+O -> M : mapOrganizationPayment = determinePaymentOrganization()
+activate M
+deactivate M
+end loop
+[<-- O : mapOrganizationPayment
+deactivate O
+
+@enduml

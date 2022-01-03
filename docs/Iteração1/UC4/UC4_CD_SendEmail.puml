@@ -1,0 +1,45 @@
+@startuml
+
+hide attributes
+
+note left of ExternalEmailService
+This interface will be object
+of multiple implementations,
+one for each external algorithm
+that has to be supported.
+end note
+
+interface ExternalEmailService << interface >>
+{
+ +sendPassword(email, pwd)
+}
+
+
+class EmailServiceAdapter1
+{
++sendPassword(email, pwd)
+}
+
+class ExternalService1API
+{
+
+}
+
+ExternalEmailService <|.. EmailServiceAdapter1
+EmailServiceAdapter1 -d->  ExternalService1API
+
+class EmailServiceAdapter2
+{
++sendPassword(email, pwd)
+}
+
+class ExternalService2API
+{
+
+}
+
+ExternalEmailService <|.. EmailServiceAdapter2
+EmailServiceAdapter2 -d->  ExternalService2API
+
+
+@enduml
